@@ -25,11 +25,17 @@ HEADERS = {
 
 
 def base_url(sess: requests.Session) -> str:
-    testo = sess.get("https://wizzair.com/buildnumber", timeout=20).text
-    m = re.search(r"https://be\.wizzair\.com/[\d.]+", testo)
-    if not m:
-        raise RuntimeError("numero di versione API Wizz non trovato")
-    return m.group(0)
+    tentativi = []
+    for url in ("https://wizzair.com/buildnumber", "https://wizzair.com/it-it"):
+        try:
+            r = sess.get(url, timeout=20)
+            m = re.search(r"be\.wizzair\.com/(\d+(?:\.\d+)+)", r.text)
+            if m:
+                return f"https://be.wizzair.com/{m.group(1)}"
+            tentativi.append(f"{url} -> HTTP {r.status_code}: {r.text[:120]!r}")
+        except Exception as e:
+            tentativi.append(f"{url} -> {type(e).__name__}: {e}")
+    raise RuntimeError("versione API non trovata; " + " | ".join(tentativi))
 
 
 def destinazioni(sess: requests.Session, base: str, partenza: str) -> list[dict]:
@@ -88,7 +94,7 @@ def cerca_tutto(finestre: list[Finestra], cfg: dict, oggi: str) -> tuple[list[Of
         base = base_url(sess)
         rotte = destinazioni(sess, base, cfg["partenza"])
     except Exception as e:
-        return [], [f"Wizz Air non raggiungibile: {type(e).__name__}: {e}"[:200]]
+        return [], [f"Wizz Air non raggiungibile: {type(e).__name__}: {e}"[:700]]
     escludi = {x.lower() for x in cfg.get("escludi_paesi", [])}
     rotte = [r for r in rotte if str(r.get("countryCode", "")).lower() not in escludi]
     cambi = Cambi(sess)
