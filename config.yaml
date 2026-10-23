@@ -1,0 +1,95 @@
+# ============================================================
+#  SCANNER VOLI WEEKEND - configurazione
+#  Modifica questo file direttamente da GitHub (icona matita).
+# ============================================================
+
+partenza: BRI                # aeroporto di partenza
+
+passeggeri:
+  adulti: 3                  # 16+ anni (Sofia conta come adulta per le compagnie)
+  ragazzi_12_15: 1           # Flavio: "teen" per Ryanair, adulto per Google/Wizz
+
+orari:
+  andata_dopo: "16:00"       # se il giorno di partenza è lavorativo
+  ritorno_partenza_dopo: "00:00"   # volo di rientro (ultimo giorno): qualsiasi ora
+  ritorno_arrivo_entro: null       # null = nessun limite, va bene atterrare anche dopo mezzanotte
+
+bagaglio:
+  trolley_cabina: false      # false = solo borsa piccola sotto il sedile (gratis sulle low cost)
+                             # true  = trolley 10 kg in cabina (Google aggiunge il costo stimato)
+
+ricerca:
+  settimane_avanti: 12       # quanto lontano guardare nel calendario
+  giorni_minimi_preavviso: 2 # ignora partenze troppo vicine
+  max_scali: 1               # 0 = solo diretti, 1 = fino a uno scalo
+  notti_max_finestra: 4      # nelle vacanze lunghe (Natale, Pasqua) spezza in viaggi di N notti
+  google_max_ricerche_giorno: 220   # limite per non farsi bloccare da Google
+  pausa_tra_ricerche_sec: 2.0
+  validita_cache_giorni: 3   # prezzi non ricontrollati oggi restano validi per N giorni
+
+classifica:
+  top: 5
+  una_volta_per_citta: true  # niente 5 risultati tutti per la stessa città
+  sezione_ponti: 3           # quanti "migliori ponti" mostrare a parte (0 = no)
+
+fonti:
+  google_flights: true
+  ryanair: true
+  wizzair: true
+
+# Paesi da escludere per i risultati Ryanair/Wizz (codici o nomi)
+escludi_paesi: ["Italy", "Italia", "IT"]
+
+# Destinazioni da far cercare a Google Flights (Ryanair e Wizz trovano
+# da soli tutte le loro rotte da Bari). Codice IATA dell'AEROPORTO: "Città, Paese"
+# (Ryanair copre già gli aeroporti secondari tipo Beauvais o Stansted)
+destinazioni:
+  # Capitali UE
+  LIS: "Lisbona, Portogallo"
+  MAD: "Madrid, Spagna"
+  CDG: "Parigi, Francia"
+  BRU: "Bruxelles, Belgio"
+  AMS: "Amsterdam, Paesi Bassi"
+  LUX: "Lussemburgo, Lussemburgo"
+  BER: "Berlino, Germania"
+  CPH: "Copenaghen, Danimarca"
+  ARN: "Stoccolma, Svezia"
+  HEL: "Helsinki, Finlandia"
+  DUB: "Dublino, Irlanda"
+  VIE: "Vienna, Austria"
+  PRG: "Praga, Rep. Ceca"
+  BTS: "Bratislava, Slovacchia"
+  BUD: "Budapest, Ungheria"
+  WAW: "Varsavia, Polonia"
+  LJU: "Lubiana, Slovenia"
+  ZAG: "Zagabria, Croazia"
+  OTP: "Bucarest, Romania"
+  SOF: "Sofia, Bulgaria"
+  ATH: "Atene, Grecia"
+  MLA: "La Valletta, Malta"
+  LCA: "Larnaca, Cipro"
+  TLL: "Tallinn, Estonia"
+  RIX: "Riga, Lettonia"
+  VNO: "Vilnius, Lituania"
+  # Capitali non UE vicine
+  LGW: "Londra, Regno Unito"
+  EDI: "Edimburgo, Regno Unito"
+  OSL: "Oslo, Norvegia"
+  ZRH: "Zurigo, Svizzera"
+  TIA: "Tirana, Albania"
+  TGD: "Podgorica, Montenegro"
+  BEG: "Belgrado, Serbia"
+  SJJ: "Sarajevo, Bosnia"
+  SKP: "Skopje, Macedonia del Nord"
+  IST: "Istanbul, Turchia"
+  KEF: "Reykjavik, Islanda"
+  # Grandi città da weekend
+  BCN: "Barcellona, Spagna"
+  SVQ: "Siviglia, Spagna"
+  VLC: "Valencia, Spagna"
+  OPO: "Porto, Portogallo"
+  MUC: "Monaco di Baviera, Germania"
+  KRK: "Cracovia, Polonia"
+  NCE: "Nizza, Francia"
+  MRS: "Marsiglia, Francia"
+  RAK: "Marrakech, Marocco"

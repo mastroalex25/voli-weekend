@@ -1,0 +1,23 @@
+# ============================================================
+#  GIORNI LIBERI OLTRE A SABATI, DOMENICHE E FESTIVI NAZIONALI
+#  (i festivi nazionali, Pasquetta compresa, li calcola il programma)
+#
+#  Formato: una data "AAAA-MM-GG" oppure un intervallo "AAAA-MM-GG..AAAA-MM-GG"
+# ============================================================
+
+# Calendario scolastico regionale Puglia 2026/27
+# (fonte: delibera regionale, riportata da studenti.it e orizzontescuola.it)
+scuola_puglia:
+  - "2026-12-07..2026-12-08"   # ponte dell'Immacolata
+  - "2026-12-23..2027-01-06"   # vacanze di Natale
+  - "2027-03-25..2027-03-30"   # vacanze di Pasqua
+  # Le lezioni finiscono l'8 giugno 2027, ma i docenti hanno scrutini ed
+  # esami fino a fine giugno: i giorni liberi estivi vanno in extra_moglie.
+
+# Giorni extra del calendario di tua moglie (delibere del collegio docenti,
+# santo patrono, ponti d'istituto...). Da compilare.
+extra_moglie: []
+
+# Giorni in cui tua moglie NON è libera anche se il calendario sopra
+# lo direbbe (es. scrutini, esami). Hanno la precedenza su tutto.
+non_liberi: []
