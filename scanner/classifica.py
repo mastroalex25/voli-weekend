@@ -16,7 +16,8 @@ def _norm(citta: str) -> str:
             "prague": "praga", "warsaw": "varsavia", "brussels": "bruxelles",
             "budapest": "budapest", "athens": "atene", "bucharest": "bucarest",
             "cracow": "cracovia", "krakow": "cracovia", "seville": "siviglia",
-            "barcelona": "barcellona", "copenhagen": "copenaghen", "munich": "monaco"}.get(c, c)
+            "barcelona": "barcellona", "copenhagen": "copenaghen", "munich": "monaco",
+            "la valletta": "malta", "valletta": "malta", "larnaca": "cipro"}.get(c, c)
 
 
 class Archivio:

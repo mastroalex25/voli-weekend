@@ -7,6 +7,7 @@ lo scrive in fondo al messaggio Telegram.
 from __future__ import annotations
 
 import re
+import time
 from datetime import timedelta
 
 import requests
@@ -118,7 +119,11 @@ def cerca_tutto(finestre: list[Finestra], cfg: dict, oggi: str) -> tuple[list[Of
                 "priceType": "regular", "adultCount": 1, "childCount": 0, "infantCount": 0,
             }
             try:
+                time.sleep(1.0)   # Wizz rifiuta le richieste troppo ravvicinate
                 r = sess.post(f"{base}/Api/search/timetable", json=corpo, timeout=30)
+                if r.status_code in (429, 503):
+                    time.sleep(8)
+                    r = sess.post(f"{base}/Api/search/timetable", json=corpo, timeout=30)
                 r.raise_for_status()
                 dati = r.json()
                 andate += dati.get("outboundFlights", [])
