@@ -1,6 +1,289 @@
 {
- "controlli_google": {},
+ "controlli_google": {
+  "2026-10-30_2026-11-01|AMS": "2026-10-23",
+  "2026-10-30_2026-11-01|ARN": "2026-10-23",
+  "2026-10-30_2026-11-01|ATH": "2026-10-23",
+  "2026-10-30_2026-11-01|BCN": "2026-10-23",
+  "2026-10-30_2026-11-01|BEG": "2026-10-23",
+  "2026-10-30_2026-11-01|BER": "2026-10-23",
+  "2026-10-30_2026-11-01|BRU": "2026-10-23",
+  "2026-10-30_2026-11-01|BUD": "2026-10-23",
+  "2026-10-30_2026-11-01|CDG": "2026-10-23",
+  "2026-10-30_2026-11-01|CPH": "2026-10-23",
+  "2026-10-30_2026-11-01|DUB": "2026-10-23",
+  "2026-10-30_2026-11-01|EDI": "2026-10-23",
+  "2026-10-30_2026-11-01|KRK": "2026-10-23",
+  "2026-10-30_2026-11-01|LGW": "2026-10-23",
+  "2026-10-30_2026-11-01|LIS": "2026-10-23",
+  "2026-10-30_2026-11-01|LJU": "2026-10-23",
+  "2026-10-30_2026-11-01|LUX": "2026-10-23",
+  "2026-10-30_2026-11-01|MAD": "2026-10-23",
+  "2026-10-30_2026-11-01|MLA": "2026-10-23",
+  "2026-10-30_2026-11-01|MRS": "2026-10-23",
+  "2026-10-30_2026-11-01|MUC": "2026-10-23",
+  "2026-10-30_2026-11-01|NCE": "2026-10-23",
+  "2026-10-30_2026-11-01|OPO": "2026-10-23",
+  "2026-10-30_2026-11-01|OSL": "2026-10-23",
+  "2026-10-30_2026-11-01|OTP": "2026-10-23",
+  "2026-10-30_2026-11-01|PRG": "2026-10-23",
+  "2026-10-30_2026-11-01|RAK": "2026-10-23",
+  "2026-10-30_2026-11-01|SOF": "2026-10-23",
+  "2026-10-30_2026-11-01|SVQ": "2026-10-23",
+  "2026-10-30_2026-11-01|TIA": "2026-10-23",
+  "2026-10-30_2026-11-01|VIE": "2026-10-23",
+  "2026-10-30_2026-11-01|VLC": "2026-10-23",
+  "2026-10-30_2026-11-01|WAW": "2026-10-23",
+  "2026-10-30_2026-11-01|ZAG": "2026-10-23",
+  "2026-10-30_2026-11-01|ZRH": "2026-10-23",
+  "2026-11-06_2026-11-08|AMS": "2026-10-23",
+  "2026-11-06_2026-11-08|ARN": "2026-10-23",
+  "2026-11-06_2026-11-08|ATH": "2026-10-23",
+  "2026-11-06_2026-11-08|BCN": "2026-10-23",
+  "2026-11-06_2026-11-08|BEG": "2026-10-23",
+  "2026-11-06_2026-11-08|BER": "2026-10-23",
+  "2026-11-06_2026-11-08|BRU": "2026-10-23",
+  "2026-11-06_2026-11-08|BUD": "2026-10-23",
+  "2026-11-06_2026-11-08|CDG": "2026-10-23",
+  "2026-11-06_2026-11-08|CPH": "2026-10-23",
+  "2026-11-06_2026-11-08|DUB": "2026-10-23",
+  "2026-11-06_2026-11-08|HEL": "2026-10-23",
+  "2026-11-06_2026-11-08|IST": "2026-10-23",
+  "2026-11-06_2026-11-08|KEF": "2026-10-23",
+  "2026-11-06_2026-11-08|KRK": "2026-10-23",
+  "2026-11-06_2026-11-08|LCA": "2026-10-23",
+  "2026-11-06_2026-11-08|LIS": "2026-10-23",
+  "2026-11-06_2026-11-08|LUX": "2026-10-23",
+  "2026-11-06_2026-11-08|MAD": "2026-10-23",
+  "2026-11-06_2026-11-08|MLA": "2026-10-23",
+  "2026-11-06_2026-11-08|MRS": "2026-10-23",
+  "2026-11-06_2026-11-08|MUC": "2026-10-23",
+  "2026-11-06_2026-11-08|NCE": "2026-10-23",
+  "2026-11-06_2026-11-08|OPO": "2026-10-23",
+  "2026-11-06_2026-11-08|OSL": "2026-10-23",
+  "2026-11-06_2026-11-08|OTP": "2026-10-23",
+  "2026-11-06_2026-11-08|PRG": "2026-10-23",
+  "2026-11-06_2026-11-08|RAK": "2026-10-23",
+  "2026-11-06_2026-11-08|RIX": "2026-10-23",
+  "2026-11-06_2026-11-08|SJJ": "2026-10-23",
+  "2026-11-06_2026-11-08|SOF": "2026-10-23",
+  "2026-11-06_2026-11-08|SVQ": "2026-10-23",
+  "2026-11-06_2026-11-08|TIA": "2026-10-23",
+  "2026-11-06_2026-11-08|VIE": "2026-10-23",
+  "2026-11-06_2026-11-08|VLC": "2026-10-23",
+  "2026-11-06_2026-11-08|WAW": "2026-10-23",
+  "2026-11-06_2026-11-08|ZAG": "2026-10-23",
+  "2026-11-06_2026-11-08|ZRH": "2026-10-23",
+  "2026-11-13_2026-11-15|AMS": "2026-10-23",
+  "2026-11-13_2026-11-15|ARN": "2026-10-23",
+  "2026-11-13_2026-11-15|ATH": "2026-10-23",
+  "2026-11-13_2026-11-15|BCN": "2026-10-23",
+  "2026-11-13_2026-11-15|BEG": "2026-10-23",
+  "2026-11-13_2026-11-15|BER": "2026-10-23",
+  "2026-11-13_2026-11-15|BRU": "2026-10-23",
+  "2026-11-13_2026-11-15|BUD": "2026-10-23",
+  "2026-11-13_2026-11-15|CDG": "2026-10-23",
+  "2026-11-13_2026-11-15|CPH": "2026-10-23",
+  "2026-11-13_2026-11-15|DUB": "2026-10-23",
+  "2026-11-13_2026-11-15|HEL": "2026-10-23",
+  "2026-11-13_2026-11-15|IST": "2026-10-23",
+  "2026-11-13_2026-11-15|KEF": "2026-10-23",
+  "2026-11-13_2026-11-15|KRK": "2026-10-23",
+  "2026-11-13_2026-11-15|LIS": "2026-10-23",
+  "2026-11-13_2026-11-15|LUX": "2026-10-23",
+  "2026-11-13_2026-11-15|MAD": "2026-10-23",
+  "2026-11-13_2026-11-15|MLA": "2026-10-23",
+  "2026-11-13_2026-11-15|MRS": "2026-10-23",
+  "2026-11-13_2026-11-15|MUC": "2026-10-23",
+  "2026-11-13_2026-11-15|NCE": "2026-10-23",
+  "2026-11-13_2026-11-15|OPO": "2026-10-23",
+  "2026-11-13_2026-11-15|OSL": "2026-10-23",
+  "2026-11-13_2026-11-15|OTP": "2026-10-23",
+  "2026-11-13_2026-11-15|PRG": "2026-10-23",
+  "2026-11-13_2026-11-15|RAK": "2026-10-23",
+  "2026-11-13_2026-11-15|RIX": "2026-10-23",
+  "2026-11-13_2026-11-15|SOF": "2026-10-23",
+  "2026-11-13_2026-11-15|SVQ": "2026-10-23",
+  "2026-11-13_2026-11-15|TIA": "2026-10-23",
+  "2026-11-13_2026-11-15|TLL": "2026-10-23",
+  "2026-11-13_2026-11-15|VIE": "2026-10-23",
+  "2026-11-13_2026-11-15|VLC": "2026-10-23",
+  "2026-11-13_2026-11-15|WAW": "2026-10-23",
+  "2026-11-13_2026-11-15|ZAG": "2026-10-23",
+  "2026-11-13_2026-11-15|ZRH": "2026-10-23",
+  "2026-11-20_2026-11-22|AMS": "2026-10-23",
+  "2026-11-20_2026-11-22|ARN": "2026-10-23",
+  "2026-11-20_2026-11-22|ATH": "2026-10-23",
+  "2026-11-20_2026-11-22|BCN": "2026-10-23",
+  "2026-11-20_2026-11-22|BEG": "2026-10-23",
+  "2026-11-20_2026-11-22|BER": "2026-10-23",
+  "2026-11-20_2026-11-22|BRU": "2026-10-23",
+  "2026-11-20_2026-11-22|BUD": "2026-10-23",
+  "2026-11-20_2026-11-22|CDG": "2026-10-23",
+  "2026-11-20_2026-11-22|CPH": "2026-10-23",
+  "2026-11-20_2026-11-22|DUB": "2026-10-23",
+  "2026-11-20_2026-11-22|HEL": "2026-10-23",
+  "2026-11-20_2026-11-22|IST": "2026-10-23",
+  "2026-11-20_2026-11-22|KEF": "2026-10-23",
+  "2026-11-20_2026-11-22|KRK": "2026-10-23",
+  "2026-11-20_2026-11-22|LIS": "2026-10-23",
+  "2026-11-20_2026-11-22|LUX": "2026-10-23",
+  "2026-11-20_2026-11-22|MAD": "2026-10-23",
+  "2026-11-20_2026-11-22|MLA": "2026-10-23",
+  "2026-11-20_2026-11-22|MRS": "2026-10-23",
+  "2026-11-20_2026-11-22|MUC": "2026-10-23",
+  "2026-11-20_2026-11-22|NCE": "2026-10-23",
+  "2026-11-20_2026-11-22|OPO": "2026-10-23",
+  "2026-11-20_2026-11-22|OSL": "2026-10-23",
+  "2026-11-20_2026-11-22|OTP": "2026-10-23",
+  "2026-11-20_2026-11-22|PRG": "2026-10-23",
+  "2026-11-20_2026-11-22|RAK": "2026-10-23",
+  "2026-11-20_2026-11-22|RIX": "2026-10-23",
+  "2026-11-20_2026-11-22|SOF": "2026-10-23",
+  "2026-11-20_2026-11-22|SVQ": "2026-10-23",
+  "2026-11-20_2026-11-22|TIA": "2026-10-23",
+  "2026-11-20_2026-11-22|TLL": "2026-10-23",
+  "2026-11-20_2026-11-22|VIE": "2026-10-23",
+  "2026-11-20_2026-11-22|VLC": "2026-10-23",
+  "2026-11-20_2026-11-22|VNO": "2026-10-23",
+  "2026-11-20_2026-11-22|WAW": "2026-10-23",
+  "2026-11-20_2026-11-22|ZAG": "2026-10-23",
+  "2026-11-20_2026-11-22|ZRH": "2026-10-23",
+  "2026-11-27_2026-11-29|AMS": "2026-10-23",
+  "2026-11-27_2026-11-29|ARN": "2026-10-23",
+  "2026-11-27_2026-11-29|ATH": "2026-10-23",
+  "2026-11-27_2026-11-29|BEG": "2026-10-23",
+  "2026-11-27_2026-11-29|BER": "2026-10-23",
+  "2026-11-27_2026-11-29|BRU": "2026-10-23",
+  "2026-11-27_2026-11-29|BUD": "2026-10-23",
+  "2026-11-27_2026-11-29|CDG": "2026-10-23",
+  "2026-11-27_2026-11-29|CPH": "2026-10-23",
+  "2026-11-27_2026-11-29|DUB": "2026-10-23",
+  "2026-11-27_2026-11-29|HEL": "2026-10-23",
+  "2026-11-27_2026-11-29|IST": "2026-10-23",
+  "2026-11-27_2026-11-29|LIS": "2026-10-23",
+  "2026-11-27_2026-11-29|LUX": "2026-10-23",
+  "2026-11-27_2026-11-29|MAD": "2026-10-23",
+  "2026-11-27_2026-11-29|MLA": "2026-10-23",
+  "2026-11-27_2026-11-29|OSL": "2026-10-23",
+  "2026-11-27_2026-11-29|OTP": "2026-10-23",
+  "2026-11-27_2026-11-29|PRG": "2026-10-23",
+  "2026-11-27_2026-11-29|RIX": "2026-10-23",
+  "2026-11-27_2026-11-29|SOF": "2026-10-23",
+  "2026-11-27_2026-11-29|TIA": "2026-10-23",
+  "2026-11-27_2026-11-29|TLL": "2026-10-23",
+  "2026-11-27_2026-11-29|VIE": "2026-10-23",
+  "2026-11-27_2026-11-29|VNO": "2026-10-23",
+  "2026-11-27_2026-11-29|WAW": "2026-10-23",
+  "2026-11-27_2026-11-29|ZAG": "2026-10-23",
+  "2026-11-27_2026-11-29|ZRH": "2026-10-23"
+ },
  "offerte": {
+  "2026-10-30_2026-11-01|AMS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 19:15",
+   "citta": "Amsterdam",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "AMS",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNBTVMaHBIKMjAyNi0xMS0wMSgBagUSA0FNU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 401.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Paesi Bassi",
+   "persone": 4,
+   "prezzo_persona": 401.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|ARN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 11:55",
+   "citta": "Stoccolma",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "ARN",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNBUk4aHBIKMjAyNi0xMS0wMSgBagUSA0FSTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 685.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svezia",
+   "persone": 4,
+   "prezzo_persona": 685.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|ATH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 01:30",
+   "citta": "Atene",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "ATH",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNBVEgaHBIKMjAyNi0xMS0wMSgBagUSA0FUSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 677.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Grecia",
+   "persone": 4,
+   "prezzo_persona": 677.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|BCN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:00",
+   "citta": "Barcellona",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "BCN",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNCQ04aHBIKMjAyNi0xMS0wMSgBagUSA0JDTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 481.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 481.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|BER|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:50 → 21:00",
+   "citta": "Berlino",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BER",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNCRVIaHBIKMjAyNi0xMS0wMSgBagUSA0JFUnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 385.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 385.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-10-30_2026-11-01|BER|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "18:50 → 21:00",
@@ -19,6 +302,49 @@
    "prezzo_persona": 384.48,
    "prezzo_prec": null,
    "ritorno": "21:55 → 00:05",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|BRU|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 14:40",
+   "citta": "Bruxelles",
+   "compagnie": [
+    "ITA",
+    "Brussels Airlines"
+   ],
+   "destinazione": "BRU",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNCUlUaHBIKMjAyNi0xMS0wMSgBagUSA0JSVXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 362.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Belgio",
+   "persone": 4,
+   "prezzo_persona": 362.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|BUD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:30 → 22:00",
+   "citta": "Budapest",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNCVUQaHBIKMjAyNi0xMS0wMSgBagUSA0JVRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 191.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 191.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -64,6 +390,48 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-10-30_2026-11-01|CDG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 16:00",
+   "citta": "Parigi",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "CDG",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNDREcaHBIKMjAyNi0xMS0wMSgBagUSA0NER3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 480.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 480.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|CPH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:10",
+   "citta": "Copenaghen",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "CPH",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNDUEgaHBIKMjAyNi0xMS0wMSgBagUSA0NQSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 471.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Danimarca",
+   "persone": 4,
+   "prezzo_persona": 471.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-10-30_2026-11-01|CRL|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "19:55 → 22:20",
@@ -82,6 +450,69 @@
    "prezzo_persona": 268.08,
    "prezzo_prec": null,
    "ritorno": "17:20 → 19:40",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|DUB|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:25",
+   "citta": "Dublino",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "DUB",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNEVUIaHBIKMjAyNi0xMS0wMSgBagUSA0RVQnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 613.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Irlanda",
+   "persone": 4,
+   "prezzo_persona": 613.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|EDI|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 10:30",
+   "citta": "Edimburgo",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "EDI",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNFREkaHBIKMjAyNi0xMS0wMSgBagUSA0VESXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1158.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Regno Unito",
+   "persone": 4,
+   "prezzo_persona": 1158.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|KRK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "22:10 → 00:05",
+   "citta": "Cracovia",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "KRK",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNLUksaHBIKMjAyNi0xMS0wMSgBagUSA0tSS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 231.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 231.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -106,6 +537,132 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-10-30_2026-11-01|LGW|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:00",
+   "citta": "Londra",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "LGW",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNMR1caHBIKMjAyNi0xMS0wMSgBagUSA0xHV3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 604.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Regno Unito",
+   "persone": 4,
+   "prezzo_persona": 604.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|LIS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 11:25",
+   "citta": "Lisbona",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "LIS",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNMSVMaHBIKMjAyNi0xMS0wMSgBagUSA0xJU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1120.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 1120.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|LJU|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 11:40",
+   "citta": "Lubiana",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "LJU",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNMSlUaHBIKMjAyNi0xMS0wMSgBagUSA0xKVXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1219.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Slovenia",
+   "persone": 4,
+   "prezzo_persona": 1219.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|LUX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 08:35",
+   "citta": "Lussemburgo",
+   "compagnie": [
+    "Air Dolomiti"
+   ],
+   "destinazione": "LUX",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNMVVgaHBIKMjAyNi0xMS0wMSgBagUSA0xVWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 478.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lussemburgo",
+   "persone": 4,
+   "prezzo_persona": 478.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|MAD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:10",
+   "citta": "Madrid",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "MAD",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNNQUQaHBIKMjAyNi0xMS0wMSgBagUSA01BRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 785.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 785.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|MLA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "16:10 → 17:30",
+   "citta": "La Valletta",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "MLA",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNNTEEaHBIKMjAyNi0xMS0wMSgBagUSA01MQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 232.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Malta",
+   "persone": 4,
+   "prezzo_persona": 232.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-10-30_2026-11-01|MLA|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:10 → 17:30",
@@ -125,6 +682,134 @@
    "prezzo_prec": null,
    "ritorno": "13:30 → 14:50",
    "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|MRS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:25",
+   "citta": "Marsiglia",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "MRS",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNNUlMaHBIKMjAyNi0xMS0wMSgBagUSA01SU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 432.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 432.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|MUC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 11:00",
+   "citta": "Monaco di Baviera",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "MUC",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNNVUMaHBIKMjAyNi0xMS0wMSgBagUSA01VQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 530.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 530.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|NCE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 08:50",
+   "citta": "Nizza",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "NCE",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNOQ0UaHBIKMjAyNi0xMS0wMSgBagUSA05DRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 521.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 521.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|OPO|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 10:35",
+   "citta": "Porto",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "OPO",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNPUE8aHBIKMjAyNi0xMS0wMSgBagUSA09QT3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 548.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 548.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|OSL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 14:25",
+   "citta": "Oslo",
+   "compagnie": [
+    "Air France",
+    "Scandinavian Airlines"
+   ],
+   "destinazione": "OSL",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNPU0waHBIKMjAyNi0xMS0wMSgBagUSA09TTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 687.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Norvegia",
+   "persone": 4,
+   "prezzo_persona": 687.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|OTP|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 15:50",
+   "citta": "Bucarest",
+   "compagnie": [
+    "Air France",
+    "TAROM"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNPVFAaHBIKMjAyNi0xMS0wMSgBagUSA09UUHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 785.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 785.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
    "tipo": "weekend"
   },
   "2026-10-30_2026-11-01|POZ|ryanair": {
@@ -148,6 +833,27 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-10-30_2026-11-01|PRG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:05",
+   "citta": "Praga",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "PRG",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNQUkcaHBIKMjAyNi0xMS0wMSgBagUSA1BSR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 279.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Rep. Ceca",
+   "persone": 4,
+   "prezzo_persona": 279.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-10-30_2026-11-01|PRG|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "20:00 → 21:55",
@@ -167,6 +873,27 @@
    "prezzo_prec": null,
    "ritorno": "16:00 → 18:00",
    "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|RAK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 12:00",
+   "citta": "Marrakech",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "RAK",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNSQUsaHBIKMjAyNi0xMS0wMSgBagUSA1JBS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 548.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Marocco",
+   "persone": 4,
+   "prezzo_persona": 548.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
    "tipo": "weekend"
   },
   "2026-10-30_2026-11-01|STN|ryanair": {
@@ -211,6 +938,262 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-10-30_2026-11-01|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-10-30/2026-11-01/4/0/0/null",
+   "minimo": 48.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 48.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|VIE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 08:45",
+   "citta": "Vienna",
+   "compagnie": [
+    "ITA",
+    "Austrian"
+   ],
+   "destinazione": "VIE",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNWSUUaHBIKMjAyNi0xMS0wMSgBagUSA1ZJRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 253.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Austria",
+   "persone": 4,
+   "prezzo_persona": 253.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|VLC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:05 → 22:35",
+   "citta": "Valencia",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "VLC",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNWTEMaHBIKMjAyNi0xMS0wMSgBagUSA1ZMQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 278.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 278.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|WAW|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 12:40",
+   "citta": "Varsavia",
+   "compagnie": [
+    "ITA",
+    "LOT"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNXQVcaHBIKMjAyNi0xMS0wMSgBagUSA1dBV3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 357.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 357.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|ZAG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 12:00",
+   "citta": "Zagabria",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "ZAG",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNaQUcaHBIKMjAyNi0xMS0wMSgBagUSA1pBR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 835.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Croazia",
+   "persone": 4,
+   "prezzo_persona": 835.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-10-30_2026-11-01|ZRH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:35 → 09:50",
+   "citta": "Zurigo",
+   "compagnie": [
+    "Air France"
+   ],
+   "destinazione": "ZRH",
+   "finestra": "2026-10-30_2026-11-01",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTAtMzAoAUAQagUSA0JSSXIFEgNaUkgaHBIKMjAyNi0xMS0wMSgBagUSA1pSSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 337.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svizzera",
+   "persone": 4,
+   "prezzo_persona": 337.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|AMS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 11:15",
+   "citta": "Amsterdam",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "AMS",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNBTVMaHBIKMjAyNi0xMS0wOCgBagUSA0FNU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 375.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Paesi Bassi",
+   "persone": 4,
+   "prezzo_persona": 375.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|ARN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:55",
+   "citta": "Stoccolma",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "ARN",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNBUk4aHBIKMjAyNi0xMS0wOCgBagUSA0FSTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 519.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svezia",
+   "persone": 4,
+   "prezzo_persona": 519.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|ATH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 18:35",
+   "citta": "Atene",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "ATH",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNBVEgaHBIKMjAyNi0xMS0wOCgBagUSA0FUSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 240.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Grecia",
+   "persone": 4,
+   "prezzo_persona": 240.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|BCN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 23:15",
+   "citta": "Barcellona",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "BCN",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNCQ04aHBIKMjAyNi0xMS0wOCgBagUSA0JDTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 210.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 210.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|BEG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 11:10",
+   "citta": "Belgrado",
+   "compagnie": [
+    "ITA",
+    "Air Serbia"
+   ],
+   "destinazione": "BEG",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNCRUcaHBIKMjAyNi0xMS0wOCgBagUSA0JFR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 748.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Serbia",
+   "persone": 4,
+   "prezzo_persona": 748.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|BER|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "17:05 → 19:15",
+   "citta": "Berlino",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BER",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNCRVIaHBIKMjAyNi0xMS0wOCgBagUSA0JFUnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 109.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 109.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-11-06_2026-11-08|BER|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "17:05 → 19:15",
@@ -229,6 +1212,48 @@
    "prezzo_persona": 101.58,
    "prezzo_prec": null,
    "ritorno": "21:55 → 00:05",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|BRU|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "16:25 → 08:35",
+   "citta": "Bruxelles",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "BRU",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNCUlUaHBIKMjAyNi0xMS0wOCgBagUSA0JSVXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 492.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Belgio",
+   "persone": 4,
+   "prezzo_persona": 492.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|BUD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:30 → 22:00",
+   "citta": "Budapest",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNCVUQaHBIKMjAyNi0xMS0wOCgBagUSA0JVRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 131.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 131.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -274,6 +1299,50 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-06_2026-11-08|CDG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 17:35",
+   "citta": "Parigi",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "CDG",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNDREcaHBIKMjAyNi0xMS0wOCgBagUSA0NER3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 596.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 596.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|CPH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:10",
+   "citta": "Copenaghen",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "CPH",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNDUEgaHBIKMjAyNi0xMS0wOCgBagUSA0NQSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 973.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Danimarca",
+   "persone": 4,
+   "prezzo_persona": 973.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-06_2026-11-08|CRL|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "19:55 → 22:20",
@@ -292,6 +1361,93 @@
    "prezzo_persona": 343.78,
    "prezzo_prec": null,
    "ritorno": "17:20 → 19:40",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|DUB|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 10:00",
+   "citta": "Dublino",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa City Airlines"
+   ],
+   "destinazione": "DUB",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNEVUIaHBIKMjAyNi0xMS0wOCgBagUSA0RVQnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 807.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Irlanda",
+   "persone": 4,
+   "prezzo_persona": 807.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|HEL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:50",
+   "citta": "Helsinki",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "HEL",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNIRUwaHBIKMjAyNi0xMS0wOCgBagUSA0hFTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 695.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Finlandia",
+   "persone": 4,
+   "prezzo_persona": 695.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|KEF|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 15:30",
+   "citta": "Reykjavik",
+   "compagnie": [
+    "ITA",
+    "Icelandair"
+   ],
+   "destinazione": "KEF",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNLRUYaHBIKMjAyNi0xMS0wOCgBagUSA0tFRnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1308.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Islanda",
+   "persone": 4,
+   "prezzo_persona": 1308.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|KRK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "22:00 → 23:55",
+   "citta": "Cracovia",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "KRK",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNLUksaHBIKMjAyNi0xMS0wOCgBagUSA0tSS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 116.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 116.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -316,6 +1472,91 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-06_2026-11-08|LIS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 08:10",
+   "citta": "Lisbona",
+   "compagnie": [
+    "ITA",
+    "Tap Air Portugal"
+   ],
+   "destinazione": "LIS",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNMSVMaHBIKMjAyNi0xMS0wOCgBagUSA0xJU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 562.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 562.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|LUX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 08:35",
+   "citta": "Lussemburgo",
+   "compagnie": [
+    "Air Dolomiti"
+   ],
+   "destinazione": "LUX",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNMVVgaHBIKMjAyNi0xMS0wOCgBagUSA0xVWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 388.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lussemburgo",
+   "persone": 4,
+   "prezzo_persona": 388.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|MAD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 17:10",
+   "citta": "Madrid",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "MAD",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNNQUQaHBIKMjAyNi0xMS0wOCgBagUSA01BRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 272.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 272.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|MLA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "16:10 → 17:30",
+   "citta": "La Valletta",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "MLA",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNNTEEaHBIKMjAyNi0xMS0wOCgBagUSA01MQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 62.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Malta",
+   "persone": 4,
+   "prezzo_persona": 62.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-11-06_2026-11-08|MLA|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:10 → 17:30",
@@ -337,6 +1578,136 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-06_2026-11-08|MRS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:30",
+   "citta": "Marsiglia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "MRS",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNNUlMaHBIKMjAyNi0xMS0wOCgBagUSA01SU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 512.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 512.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|MUC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 10:05",
+   "citta": "Monaco di Baviera",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "MUC",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNNVUMaHBIKMjAyNi0xMS0wOCgBagUSA01VQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 365.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 365.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|NCE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 10:30",
+   "citta": "Nizza",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "NCE",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNOQ0UaHBIKMjAyNi0xMS0wOCgBagUSA05DRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 260.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 260.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|OPO|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:55",
+   "citta": "Porto",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OPO",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNPUE8aHBIKMjAyNi0xMS0wOCgBagUSA09QT3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 572.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 572.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|OSL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:00",
+   "citta": "Oslo",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OSL",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNPU0waHBIKMjAyNi0xMS0wOCgBagUSA09TTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 681.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Norvegia",
+   "persone": 4,
+   "prezzo_persona": 681.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|OTP|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 01:00",
+   "citta": "Bucarest",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNPVFAaHBIKMjAyNi0xMS0wOCgBagUSA09UUHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 519.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 519.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-06_2026-11-08|POZ|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:05 → 18:15",
@@ -355,6 +1726,27 @@
    "prezzo_persona": 109.98,
    "prezzo_prec": null,
    "ritorno": "17:10 → 19:20",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|PRG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:00 → 21:55",
+   "citta": "Praga",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "PRG",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNQUkcaHBIKMjAyNi0xMS0wOCgBagUSA1BSR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 187.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Rep. Ceca",
+   "persone": 4,
+   "prezzo_persona": 187.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -379,6 +1771,72 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-06_2026-11-08|RAK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 01:20",
+   "citta": "Marrakech",
+   "compagnie": [
+    "Air Dolomiti",
+    "Discover Airlines"
+   ],
+   "destinazione": "RAK",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNSQUsaHBIKMjAyNi0xMS0wOCgBagUSA1JBS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1323.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Marocco",
+   "persone": 4,
+   "prezzo_persona": 1323.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|RIX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 19:10",
+   "citta": "Riga",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "RIX",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNSSVgaHBIKMjAyNi0xMS0wOCgBagUSA1JJWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 731.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lettonia",
+   "persone": 4,
+   "prezzo_persona": 731.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|SOF|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 13:15",
+   "citta": "Sofia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "SOF",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNTT0YaHBIKMjAyNi0xMS0wOCgBagUSA1NPRnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 465.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Bulgaria",
+   "persone": 4,
+   "prezzo_persona": 465.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-06_2026-11-08|STN|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "21:45 → 23:40",
@@ -397,6 +1855,49 @@
    "prezzo_persona": 84.01,
    "prezzo_prec": null,
    "ritorno": "10:55 → 14:45",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|SVQ|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:05",
+   "citta": "Siviglia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "SVQ",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNTVlEaHBIKMjAyNi0xMS0wOCgBagUSA1NWUXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 660.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 660.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|TIA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "17:50 → 18:45",
+   "citta": "Tirana",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNUSUEaHBIKMjAyNi0xMS0wOCgBagUSA1RJQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 30.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 30.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -421,6 +1922,263 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-06_2026-11-08|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-11-06/2026-11-08/4/0/0/null",
+   "minimo": 39.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 39.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|VIE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 11:55",
+   "citta": "Vienna",
+   "compagnie": [
+    "ITA",
+    "Austrian"
+   ],
+   "destinazione": "VIE",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNWSUUaHBIKMjAyNi0xMS0wOCgBagUSA1ZJRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 356.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Austria",
+   "persone": 4,
+   "prezzo_persona": 356.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|VLC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:00",
+   "citta": "Valencia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "VLC",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNWTEMaHBIKMjAyNi0xMS0wOCgBagUSA1ZMQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 688.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 688.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|WAW|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 22:30",
+   "citta": "Varsavia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNXQVcaHBIKMjAyNi0xMS0wOCgBagUSA1dBV3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 524.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 524.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|ZAG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:35",
+   "citta": "Zagabria",
+   "compagnie": [
+    "Air Dolomiti"
+   ],
+   "destinazione": "ZAG",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNaQUcaHBIKMjAyNi0xMS0wOCgBagUSA1pBR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 644.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Croazia",
+   "persone": 4,
+   "prezzo_persona": 644.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-06_2026-11-08|ZRH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 10:05",
+   "citta": "Zurigo",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "ZRH",
+   "finestra": "2026-11-06_2026-11-08",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMDYoAUAQagUSA0JSSXIFEgNaUkgaHBIKMjAyNi0xMS0wOCgBagUSA1pSSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 287.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svizzera",
+   "persone": 4,
+   "prezzo_persona": 287.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|AMS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 19:15",
+   "citta": "Amsterdam",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "AMS",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNBTVMaHBIKMjAyNi0xMS0xNSgBagUSA0FNU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 236.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Paesi Bassi",
+   "persone": 4,
+   "prezzo_persona": 236.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|ARN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:55",
+   "citta": "Stoccolma",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "ARN",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNBUk4aHBIKMjAyNi0xMS0xNSgBagUSA0FSTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 519.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svezia",
+   "persone": 4,
+   "prezzo_persona": 519.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|ATH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 00:50",
+   "citta": "Atene",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "ATH",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNBVEgaHBIKMjAyNi0xMS0xNSgBagUSA0FUSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 240.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Grecia",
+   "persone": 4,
+   "prezzo_persona": 240.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|BCN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 23:15",
+   "citta": "Barcellona",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "BCN",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNCQ04aHBIKMjAyNi0xMS0xNSgBagUSA0JDTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 210.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 210.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|BEG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:45",
+   "citta": "Belgrado",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "BEG",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNCRUcaHBIKMjAyNi0xMS0xNSgBagUSA0JFR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 601.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Serbia",
+   "persone": 4,
+   "prezzo_persona": 601.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|BER|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "17:05 → 19:15",
+   "citta": "Berlino",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BER",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNCRVIaHBIKMjAyNi0xMS0xNSgBagUSA0JFUnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 200.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 200.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-11-13_2026-11-15|BER|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "17:05 → 19:15",
@@ -439,6 +2197,49 @@
    "prezzo_persona": 199.63,
    "prezzo_prec": null,
    "ritorno": "21:55 → 00:05",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|BRU|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 14:40",
+   "citta": "Bruxelles",
+   "compagnie": [
+    "ITA",
+    "Brussels Airlines"
+   ],
+   "destinazione": "BRU",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNCUlUaHBIKMjAyNi0xMS0xNSgBagUSA0JSVXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 286.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Belgio",
+   "persone": 4,
+   "prezzo_persona": 286.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|BUD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:30 → 22:00",
+   "citta": "Budapest",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNCVUQaHBIKMjAyNi0xMS0xNSgBagUSA0JVRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 95.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 95.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -484,6 +2285,50 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-13_2026-11-15|CDG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 17:35",
+   "citta": "Parigi",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "CDG",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNDREcaHBIKMjAyNi0xMS0xNSgBagUSA0NER3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 360.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 360.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|CPH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:10",
+   "citta": "Copenaghen",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "CPH",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNDUEgaHBIKMjAyNi0xMS0xNSgBagUSA0NQSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 332.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Danimarca",
+   "persone": 4,
+   "prezzo_persona": 332.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-13_2026-11-15|CRL|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "19:55 → 22:20",
@@ -502,6 +2347,115 @@
    "prezzo_persona": 122.28,
    "prezzo_prec": null,
    "ritorno": "17:20 → 19:40",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|DUB|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 10:00",
+   "citta": "Dublino",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa City Airlines"
+   ],
+   "destinazione": "DUB",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNEVUIaHBIKMjAyNi0xMS0xNSgBagUSA0RVQnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 571.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Irlanda",
+   "persone": 4,
+   "prezzo_persona": 571.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|HEL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:50",
+   "citta": "Helsinki",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "HEL",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNIRUwaHBIKMjAyNi0xMS0xNSgBagUSA0hFTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 602.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Finlandia",
+   "persone": 4,
+   "prezzo_persona": 602.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|IST|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 11:35",
+   "citta": "Istanbul",
+   "compagnie": [
+    "ITA",
+    "Turkish Airlines"
+   ],
+   "destinazione": "IST",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNJU1QaHBIKMjAyNi0xMS0xNSgBagUSA0lTVHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1212.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Turchia",
+   "persone": 4,
+   "prezzo_persona": 1212.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|KEF|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 15:30",
+   "citta": "Reykjavik",
+   "compagnie": [
+    "ITA",
+    "Icelandair"
+   ],
+   "destinazione": "KEF",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNLRUYaHBIKMjAyNi0xMS0xNSgBagUSA0tFRnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1159.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Islanda",
+   "persone": 4,
+   "prezzo_persona": 1159.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|KRK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "22:00 → 23:55",
+   "citta": "Cracovia",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "KRK",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNLUksaHBIKMjAyNi0xMS0xNSgBagUSA0tSS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 187.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 187.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -526,6 +2480,91 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-13_2026-11-15|LIS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:30",
+   "citta": "Lisbona",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "LIS",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNMSVMaHBIKMjAyNi0xMS0xNSgBagUSA0xJU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 489.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 489.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|LUX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 08:35",
+   "citta": "Lussemburgo",
+   "compagnie": [
+    "Air Dolomiti"
+   ],
+   "destinazione": "LUX",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNMVVgaHBIKMjAyNi0xMS0xNSgBagUSA0xVWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 276.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lussemburgo",
+   "persone": 4,
+   "prezzo_persona": 276.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|MAD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 00:05",
+   "citta": "Madrid",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "MAD",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNNQUQaHBIKMjAyNi0xMS0xNSgBagUSA01BRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 242.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 242.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|MLA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "16:10 → 17:30",
+   "citta": "La Valletta",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "MLA",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNNTEEaHBIKMjAyNi0xMS0xNSgBagUSA01MQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 71.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Malta",
+   "persone": 4,
+   "prezzo_persona": 71.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-11-13_2026-11-15|MLA|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:10 → 17:30",
@@ -547,6 +2586,116 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-13_2026-11-15|MRS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:30",
+   "citta": "Marsiglia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "MRS",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNNUlMaHBIKMjAyNi0xMS0xNSgBagUSA01SU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 434.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 434.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|MUC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 10:45",
+   "citta": "Monaco di Baviera",
+   "compagnie": [
+    "ITA",
+    "Lufthansa"
+   ],
+   "destinazione": "MUC",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNNVUMaHBIKMjAyNi0xMS0xNSgBagUSA01VQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 225.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 225.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|NCE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:20",
+   "citta": "Nizza",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "NCE",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNOQ0UaHBIKMjAyNi0xMS0xNSgBagUSA05DRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 324.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 324.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|OPO|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:50",
+   "citta": "Porto",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OPO",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNPUE8aHBIKMjAyNi0xMS0xNSgBagUSA09QT3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 475.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 475.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|OSL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:00",
+   "citta": "Oslo",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OSL",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNPU0waHBIKMjAyNi0xMS0xNSgBagUSA09TTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 416.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Norvegia",
+   "persone": 4,
+   "prezzo_persona": 416.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-13_2026-11-15|POZ|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:05 → 18:15",
@@ -565,6 +2714,27 @@
    "prezzo_persona": 104.18,
    "prezzo_prec": null,
    "ritorno": "17:10 → 19:20",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|PRG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:00 → 21:55",
+   "citta": "Praga",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "PRG",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNQUkcaHBIKMjAyNi0xMS0xNSgBagUSA1BSR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 181.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Rep. Ceca",
+   "persone": 4,
+   "prezzo_persona": 181.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -589,6 +2759,72 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-13_2026-11-15|RAK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 01:20",
+   "citta": "Marrakech",
+   "compagnie": [
+    "Air Dolomiti",
+    "Discover Airlines"
+   ],
+   "destinazione": "RAK",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNSQUsaHBIKMjAyNi0xMS0xNSgBagUSA1JBS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 657.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Marocco",
+   "persone": 4,
+   "prezzo_persona": 657.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|RIX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 19:10",
+   "citta": "Riga",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "RIX",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNSSVgaHBIKMjAyNi0xMS0xNSgBagUSA1JJWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 2675.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lettonia",
+   "persone": 4,
+   "prezzo_persona": 2675.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|SOF|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 13:15",
+   "citta": "Sofia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "SOF",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNTT0YaHBIKMjAyNi0xMS0xNSgBagUSA1NPRnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 349.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Bulgaria",
+   "persone": 4,
+   "prezzo_persona": 349.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-13_2026-11-15|STN|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "21:45 → 23:40",
@@ -607,6 +2843,49 @@
    "prezzo_persona": 110.98,
    "prezzo_prec": null,
    "ritorno": "10:55 → 14:45",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|SVQ|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:05",
+   "citta": "Siviglia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "SVQ",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNTVlEaHBIKMjAyNi0xMS0xNSgBagUSA1NWUXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 532.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 532.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|TIA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "22:55 → 23:50",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNUSUEaHBIKMjAyNi0xMS0xNSgBagUSA1RJQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 40.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 40.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -631,6 +2910,286 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-13_2026-11-15|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-11-13/2026-11-15/4/0/0/null",
+   "minimo": 39.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 39.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|TLL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:40",
+   "citta": "Tallinn",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "TLL",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNUTEwaHBIKMjAyNi0xMS0xNSgBagUSA1RMTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 531.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Estonia",
+   "persone": 4,
+   "prezzo_persona": 531.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|VIE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 08:45",
+   "citta": "Vienna",
+   "compagnie": [
+    "ITA",
+    "Austrian"
+   ],
+   "destinazione": "VIE",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNWSUUaHBIKMjAyNi0xMS0xNSgBagUSA1ZJRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 232.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Austria",
+   "persone": 4,
+   "prezzo_persona": 232.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|VLC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:05 → 22:35",
+   "citta": "Valencia",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "VLC",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNWTEMaHBIKMjAyNi0xMS0xNSgBagUSA1ZMQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 248.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 248.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|WAW|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 22:30",
+   "citta": "Varsavia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNXQVcaHBIKMjAyNi0xMS0xNSgBagUSA1dBV3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 299.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 299.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|ZAG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:40",
+   "citta": "Zagabria",
+   "compagnie": [
+    "Air Dolomiti",
+    "Croatia"
+   ],
+   "destinazione": "ZAG",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNaQUcaHBIKMjAyNi0xMS0xNSgBagUSA1pBR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 552.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Croazia",
+   "persone": 4,
+   "prezzo_persona": 552.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-13_2026-11-15|ZRH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:15",
+   "citta": "Zurigo",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "ZRH",
+   "finestra": "2026-11-13_2026-11-15",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMTMoAUAQagUSA0JSSXIFEgNaUkgaHBIKMjAyNi0xMS0xNSgBagUSA1pSSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 475.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svizzera",
+   "persone": 4,
+   "prezzo_persona": 475.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|AMS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:55 → 23:40",
+   "citta": "Amsterdam",
+   "compagnie": [
+    "Transavia"
+   ],
+   "destinazione": "AMS",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNBTVMaHBIKMjAyNi0xMS0yMigBagUSA0FNU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 229.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Paesi Bassi",
+   "persone": 4,
+   "prezzo_persona": 229.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|ARN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:55",
+   "citta": "Stoccolma",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "ARN",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNBUk4aHBIKMjAyNi0xMS0yMigBagUSA0FSTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 220.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svezia",
+   "persone": 4,
+   "prezzo_persona": 220.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|ATH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 00:50",
+   "citta": "Atene",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "ATH",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNBVEgaHBIKMjAyNi0xMS0yMigBagUSA0FUSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 240.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Grecia",
+   "persone": 4,
+   "prezzo_persona": 240.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|BCN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 10:50",
+   "citta": "Barcellona",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "BCN",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNCQ04aHBIKMjAyNi0xMS0yMigBagUSA0JDTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 272.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 272.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|BEG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:45",
+   "citta": "Belgrado",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "BEG",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNCRUcaHBIKMjAyNi0xMS0yMigBagUSA0JFR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 315.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Serbia",
+   "persone": 4,
+   "prezzo_persona": 315.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|BER|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:50 → 21:00",
+   "citta": "Berlino",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BER",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNCRVIaHBIKMjAyNi0xMS0yMigBagUSA0JFUnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 119.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 119.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-11-20_2026-11-22|BER|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "18:50 → 21:00",
@@ -649,6 +3208,49 @@
    "prezzo_persona": 118.98,
    "prezzo_prec": null,
    "ritorno": "21:55 → 00:05",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|BRU|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 14:40",
+   "citta": "Bruxelles",
+   "compagnie": [
+    "ITA",
+    "Brussels Airlines"
+   ],
+   "destinazione": "BRU",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNCUlUaHBIKMjAyNi0xMS0yMigBagUSA0JSVXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 292.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Belgio",
+   "persone": 4,
+   "prezzo_persona": 292.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|BUD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:30 → 22:00",
+   "citta": "Budapest",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNCVUQaHBIKMjAyNi0xMS0yMigBagUSA0JVRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 123.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 123.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -694,6 +3296,49 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-20_2026-11-22|CDG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 08:40",
+   "citta": "Parigi",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "CDG",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNDREcaHBIKMjAyNi0xMS0yMigBagUSA0NER3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 255.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 255.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|CPH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:10",
+   "citta": "Copenaghen",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "CPH",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNDUEgaHBIKMjAyNi0xMS0yMigBagUSA0NQSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 256.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Danimarca",
+   "persone": 4,
+   "prezzo_persona": 256.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-20_2026-11-22|CRL|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "19:55 → 22:20",
@@ -712,6 +3357,115 @@
    "prezzo_persona": 144.98,
    "prezzo_prec": null,
    "ritorno": "17:20 → 19:40",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|DUB|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 17:10",
+   "citta": "Dublino",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa City Airlines"
+   ],
+   "destinazione": "DUB",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNEVUIaHBIKMjAyNi0xMS0yMigBagUSA0RVQnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 578.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Irlanda",
+   "persone": 4,
+   "prezzo_persona": 578.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|HEL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:50",
+   "citta": "Helsinki",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "HEL",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNIRUwaHBIKMjAyNi0xMS0yMigBagUSA0hFTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 428.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Finlandia",
+   "persone": 4,
+   "prezzo_persona": 428.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|IST|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 11:35",
+   "citta": "Istanbul",
+   "compagnie": [
+    "ITA",
+    "Turkish Airlines"
+   ],
+   "destinazione": "IST",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNJU1QaHBIKMjAyNi0xMS0yMigBagUSA0lTVHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 668.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Turchia",
+   "persone": 4,
+   "prezzo_persona": 668.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|KEF|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 15:30",
+   "citta": "Reykjavik",
+   "compagnie": [
+    "ITA",
+    "Icelandair"
+   ],
+   "destinazione": "KEF",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNLRUYaHBIKMjAyNi0xMS0yMigBagUSA0tFRnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1198.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Islanda",
+   "persone": 4,
+   "prezzo_persona": 1198.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|KRK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "22:10 → 00:05",
+   "citta": "Cracovia",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "KRK",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNLUksaHBIKMjAyNi0xMS0yMigBagUSA0tSS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 88.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 88.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -736,6 +3490,92 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-20_2026-11-22|LIS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:30",
+   "citta": "Lisbona",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "LIS",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNMSVMaHBIKMjAyNi0xMS0yMigBagUSA0xJU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 401.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 401.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|LUX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 08:35",
+   "citta": "Lussemburgo",
+   "compagnie": [
+    "Air Dolomiti"
+   ],
+   "destinazione": "LUX",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNMVVgaHBIKMjAyNi0xMS0yMigBagUSA0xVWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 196.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lussemburgo",
+   "persone": 4,
+   "prezzo_persona": 196.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|MAD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 00:05",
+   "citta": "Madrid",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "MAD",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNNQUQaHBIKMjAyNi0xMS0yMigBagUSA01BRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 202.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 202.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|MLA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:10",
+   "citta": "La Valletta",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "MLA",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNNTEEaHBIKMjAyNi0xMS0yMigBagUSA01MQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 383.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Malta",
+   "persone": 4,
+   "prezzo_persona": 383.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-20_2026-11-22|MLA|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:10 → 17:30",
@@ -757,6 +3597,137 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-20_2026-11-22|MRS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:30",
+   "citta": "Marsiglia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "MRS",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNNUlMaHBIKMjAyNi0xMS0yMigBagUSA01SU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 362.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 362.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|MUC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 08:35",
+   "citta": "Monaco di Baviera",
+   "compagnie": [
+    "ITA",
+    "Lufthansa"
+   ],
+   "destinazione": "MUC",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNNVUMaHBIKMjAyNi0xMS0yMigBagUSA01VQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 289.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 289.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|NCE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 18:30",
+   "citta": "Nizza",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "NCE",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNOQ0UaHBIKMjAyNi0xMS0yMigBagUSA05DRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 230.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 230.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|OPO|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:55",
+   "citta": "Porto",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OPO",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNPUE8aHBIKMjAyNi0xMS0yMigBagUSA09QT3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 213.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 213.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|OSL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 17:40",
+   "citta": "Oslo",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OSL",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNPU0waHBIKMjAyNi0xMS0yMigBagUSA09TTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 345.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Norvegia",
+   "persone": 4,
+   "prezzo_persona": 345.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|OTP|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 01:00",
+   "citta": "Bucarest",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNPVFAaHBIKMjAyNi0xMS0yMigBagUSA09UUHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 367.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 367.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-20_2026-11-22|POZ|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:05 → 18:15",
@@ -775,6 +3746,27 @@
    "prezzo_persona": 108.3,
    "prezzo_prec": null,
    "ritorno": "17:10 → 19:20",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|PRG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:00 → 21:55",
+   "citta": "Praga",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "PRG",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNQUkcaHBIKMjAyNi0xMS0yMigBagUSA1BSR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 187.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Rep. Ceca",
+   "persone": 4,
+   "prezzo_persona": 187.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -799,6 +3791,72 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-20_2026-11-22|RAK|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 01:20",
+   "citta": "Marrakech",
+   "compagnie": [
+    "Air Dolomiti",
+    "Discover Airlines"
+   ],
+   "destinazione": "RAK",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNSQUsaHBIKMjAyNi0xMS0yMigBagUSA1JBS3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 633.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Marocco",
+   "persone": 4,
+   "prezzo_persona": 633.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|RIX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 19:10",
+   "citta": "Riga",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "RIX",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNSSVgaHBIKMjAyNi0xMS0yMigBagUSA1JJWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 482.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lettonia",
+   "persone": 4,
+   "prezzo_persona": 482.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|SOF|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 13:15",
+   "citta": "Sofia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "SOF",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNTT0YaHBIKMjAyNi0xMS0yMigBagUSA1NPRnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 346.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Bulgaria",
+   "persone": 4,
+   "prezzo_persona": 346.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-20_2026-11-22|STN|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "21:45 → 23:40",
@@ -817,6 +3875,49 @@
    "prezzo_persona": 123.84,
    "prezzo_prec": null,
    "ritorno": "10:55 → 14:45",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|SVQ|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:05",
+   "citta": "Siviglia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "SVQ",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNTVlEaHBIKMjAyNi0xMS0yMigBagUSA1NWUXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 290.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 290.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|TIA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "22:55 → 23:50",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNUSUEaHBIKMjAyNi0xMS0yMigBagUSA1RJQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 40.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 40.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -841,6 +3942,266 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-20_2026-11-22|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-11-20/2026-11-22/4/0/0/null",
+   "minimo": 39.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 39.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|TLL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:40",
+   "citta": "Tallinn",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "TLL",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNUTEwaHBIKMjAyNi0xMS0yMigBagUSA1RMTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 343.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Estonia",
+   "persone": 4,
+   "prezzo_persona": 343.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|VIE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 22:05",
+   "citta": "Vienna",
+   "compagnie": [
+    "ITA",
+    "Austrian"
+   ],
+   "destinazione": "VIE",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNWSUUaHBIKMjAyNi0xMS0yMigBagUSA1ZJRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 217.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Austria",
+   "persone": 4,
+   "prezzo_persona": 217.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|VLC|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 17:30",
+   "citta": "Valencia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa City Airlines"
+   ],
+   "destinazione": "VLC",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNWTEMaHBIKMjAyNi0xMS0yMigBagUSA1ZMQ3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 461.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 461.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|VNO|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 22:55",
+   "citta": "Vilnius",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "VNO",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNWTk8aHBIKMjAyNi0xMS0yMigBagUSA1ZOT3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1201.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lituania",
+   "persone": 4,
+   "prezzo_persona": 1201.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|WAW|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 22:30",
+   "citta": "Varsavia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNXQVcaHBIKMjAyNi0xMS0yMigBagUSA1dBV3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 209.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 209.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-20_2026-11-22|ZRH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:15",
+   "citta": "Zurigo",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "ZRH",
+   "finestra": "2026-11-20_2026-11-22",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjAoAUAQagUSA0JSSXIFEgNaUkgaHBIKMjAyNi0xMS0yMigBagUSA1pSSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 407.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svizzera",
+   "persone": 4,
+   "prezzo_persona": 407.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|AMS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:55 → 23:40",
+   "citta": "Amsterdam",
+   "compagnie": [
+    "Transavia"
+   ],
+   "destinazione": "AMS",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNBTVMaHBIKMjAyNi0xMS0yOSgBagUSA0FNU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 273.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Paesi Bassi",
+   "persone": 4,
+   "prezzo_persona": 273.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|ARN|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:55",
+   "citta": "Stoccolma",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "ARN",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNBUk4aHBIKMjAyNi0xMS0yOSgBagUSA0FSTnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 316.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svezia",
+   "persone": 4,
+   "prezzo_persona": 316.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|ATH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 00:50",
+   "citta": "Atene",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "ATH",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNBVEgaHBIKMjAyNi0xMS0yOSgBagUSA0FUSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 198.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Grecia",
+   "persone": 4,
+   "prezzo_persona": 198.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|BEG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:45",
+   "citta": "Belgrado",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "BEG",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNCRUcaHBIKMjAyNi0xMS0yOSgBagUSA0JFR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 371.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Serbia",
+   "persone": 4,
+   "prezzo_persona": 371.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|BER|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:50 → 21:00",
+   "citta": "Berlino",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BER",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNCRVIaHBIKMjAyNi0xMS0yOSgBagUSA0JFUnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 162.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Germania",
+   "persone": 4,
+   "prezzo_persona": 162.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-11-27_2026-11-29|BER|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "18:50 → 21:00",
@@ -859,6 +4220,49 @@
    "prezzo_persona": 161.23,
    "prezzo_prec": null,
    "ritorno": "21:55 → 00:05",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|BRU|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 14:40",
+   "citta": "Bruxelles",
+   "compagnie": [
+    "ITA",
+    "Brussels Airlines"
+   ],
+   "destinazione": "BRU",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNCUlUaHBIKMjAyNi0xMS0yOSgBagUSA0JSVXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 241.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Belgio",
+   "persone": 4,
+   "prezzo_persona": 241.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|BUD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:30 → 22:00",
+   "citta": "Budapest",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNCVUQaHBIKMjAyNi0xMS0yOSgBagUSA0JVRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 91.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 91.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -904,6 +4308,49 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-27_2026-11-29|CDG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 08:40",
+   "citta": "Parigi",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "CDG",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNDREcaHBIKMjAyNi0xMS0yOSgBagUSA0NER3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 255.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Francia",
+   "persone": 4,
+   "prezzo_persona": 255.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|CPH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:10",
+   "citta": "Copenaghen",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "CPH",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNDUEgaHBIKMjAyNi0xMS0yOSgBagUSA0NQSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 319.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Danimarca",
+   "persone": 4,
+   "prezzo_persona": 319.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-27_2026-11-29|CRL|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "19:55 → 22:20",
@@ -925,6 +4372,72 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-27_2026-11-29|DUB|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 10:00",
+   "citta": "Dublino",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa City Airlines"
+   ],
+   "destinazione": "DUB",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNEVUIaHBIKMjAyNi0xMS0yOSgBagUSA0RVQnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 500.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Irlanda",
+   "persone": 4,
+   "prezzo_persona": 500.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|HEL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:50",
+   "citta": "Helsinki",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "HEL",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNIRUwaHBIKMjAyNi0xMS0yOSgBagUSA0hFTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 475.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Finlandia",
+   "persone": 4,
+   "prezzo_persona": 475.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|IST|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 11:35",
+   "citta": "Istanbul",
+   "compagnie": [
+    "ITA",
+    "Turkish Airlines"
+   ],
+   "destinazione": "IST",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNJU1QaHBIKMjAyNi0xMS0yOSgBagUSA0lTVHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 611.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Turchia",
+   "persone": 4,
+   "prezzo_persona": 611.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-27_2026-11-29|KRK|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "22:10 → 00:05",
@@ -943,6 +4456,91 @@
    "prezzo_persona": 98.98,
    "prezzo_prec": null,
    "ritorno": "06:15 → 08:10",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|LIS|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 23:30",
+   "citta": "Lisbona",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "LIS",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNMSVMaHBIKMjAyNi0xMS0yOSgBagUSA0xJU3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 401.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Portogallo",
+   "persone": 4,
+   "prezzo_persona": 401.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|LUX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 08:35",
+   "citta": "Lussemburgo",
+   "compagnie": [
+    "Air Dolomiti"
+   ],
+   "destinazione": "LUX",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNMVVgaHBIKMjAyNi0xMS0yOSgBagUSA0xVWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 234.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lussemburgo",
+   "persone": 4,
+   "prezzo_persona": 234.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|MAD|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "19:30 → 00:05",
+   "citta": "Madrid",
+   "compagnie": [
+    "ITA"
+   ],
+   "destinazione": "MAD",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNNQUQaHBIKMjAyNi0xMS0yOSgBagUSA01BRHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 202.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Spagna",
+   "persone": 4,
+   "prezzo_persona": 202.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|MLA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "16:10 → 17:30",
+   "citta": "La Valletta",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "MLA",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNNTEEaHBIKMjAyNi0xMS0yOSgBagUSA01MQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 50.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Malta",
+   "persone": 4,
+   "prezzo_persona": 50.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -967,6 +4565,50 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-27_2026-11-29|OSL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 11:00",
+   "citta": "Oslo",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OSL",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNPU0waHBIKMjAyNi0xMS0yOSgBagUSA09TTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 453.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Norvegia",
+   "persone": 4,
+   "prezzo_persona": 453.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|OTP|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 01:00",
+   "citta": "Bucarest",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNPVFAaHBIKMjAyNi0xMS0yOSgBagUSA09UUHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 302.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 302.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-27_2026-11-29|POZ|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:05 → 18:15",
@@ -985,6 +4627,27 @@
    "prezzo_persona": 86.88,
    "prezzo_prec": null,
    "ritorno": "17:10 → 19:20",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|PRG|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "20:00 → 21:55",
+   "citta": "Praga",
+   "compagnie": [
+    "Ryanair"
+   ],
+   "destinazione": "PRG",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNQUkcaHBIKMjAyNi0xMS0yOSgBagUSA1BSR3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 268.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Rep. Ceca",
+   "persone": 4,
+   "prezzo_persona": 268.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -1009,6 +4672,50 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-11-27_2026-11-29|RIX|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 19:10",
+   "citta": "Riga",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "RIX",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNSSVgaHBIKMjAyNi0xMS0yOSgBagUSA1JJWHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 539.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lettonia",
+   "persone": 4,
+   "prezzo_persona": 539.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|SOF|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 13:15",
+   "citta": "Sofia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "SOF",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNTT0YaHBIKMjAyNi0xMS0yOSgBagUSA1NPRnIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 340.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Bulgaria",
+   "persone": 4,
+   "prezzo_persona": 340.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
   "2026-11-27_2026-11-29|STN|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "21:45 → 23:40",
@@ -1027,6 +4734,27 @@
    "prezzo_persona": 104.03,
    "prezzo_prec": null,
    "ritorno": "10:55 → 14:45",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|TIA|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "22:55 → 23:50",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNUSUEaHBIKMjAyNi0xMS0yOSgBagUSA1RJQXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 44.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 44.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -1049,6 +4777,136 @@
    "prezzo_prec": null,
    "ritorno": "06:00 → 06:55",
    "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-11-27/2026-11-29/4/0/0/null",
+   "minimo": 39.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 39.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|TLL|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 12:40",
+   "citta": "Tallinn",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "TLL",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNUTEwaHBIKMjAyNi0xMS0yOSgBagUSA1RMTHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 353.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Estonia",
+   "persone": 4,
+   "prezzo_persona": 353.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|VIE|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "21:25 → 08:45",
+   "citta": "Vienna",
+   "compagnie": [
+    "ITA",
+    "Austrian"
+   ],
+   "destinazione": "VIE",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNWSUUaHBIKMjAyNi0xMS0yOSgBagUSA1ZJRXIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 232.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Austria",
+   "persone": 4,
+   "prezzo_persona": 232.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|VNO|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 22:55",
+   "citta": "Vilnius",
+   "compagnie": [
+    "Air Dolomiti",
+    "Air Baltic"
+   ],
+   "destinazione": "VNO",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNWTk8aHBIKMjAyNi0xMS0yOSgBagUSA1ZOT3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 1308.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Lituania",
+   "persone": 4,
+   "prezzo_persona": 1308.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|WAW|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 22:30",
+   "citta": "Varsavia",
+   "compagnie": [
+    "Air Dolomiti",
+    "Lufthansa"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNXQVcaHBIKMjAyNi0xMS0yOSgBagUSA1dBV3IFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 229.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 229.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
+   "tipo": "weekend"
+  },
+  "2026-11-27_2026-11-29|ZRH|google": {
+   "aggiornato": "2026-10-23",
+   "andata": "18:15 → 09:15",
+   "citta": "Zurigo",
+   "compagnie": [
+    "Air Dolomiti"
+   ],
+   "destinazione": "ZRH",
+   "finestra": "2026-11-27_2026-11-29",
+   "fonte": "google",
+   "link": "https://www.google.com/travel/flights/search?tfs=Gh4SCjIwMjYtMTEtMjcoAUAQagUSA0JSSXIFEgNaUkgaHBIKMjAyNi0xMS0yOSgBagUSA1pSSHIFEgNCUklCAQFIAZgBAQ==&hl=it&curr=EUR",
+   "minimo": 454.0,
+   "nota": "prezzo a persona ×4 (stima)",
+   "paese": "Svizzera",
+   "persone": 4,
+   "prezzo_persona": 454.0,
+   "prezzo_prec": null,
+   "ritorno": "orari sul link",
+   "scali": 1,
    "tipo": "weekend"
   },
   "2026-12-04_2026-12-08|BUD|ryanair": {
@@ -1195,6 +5053,27 @@
    "prezzo_persona": 138.0,
    "prezzo_prec": null,
    "ritorno": "09:20 → 10:15",
+   "scali": 0,
+   "tipo": "ponte"
+  },
+  "2026-12-04_2026-12-08|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-04_2026-12-08",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-04/2026-12-08/4/0/0/null",
+   "minimo": 59.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 59.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 05:50",
    "scali": 0,
    "tipo": "ponte"
   },
@@ -1405,6 +5284,27 @@
    "prezzo_persona": 36.98,
    "prezzo_prec": null,
    "ritorno": "06:00 → 06:55",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2026-12-11_2026-12-13|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-11_2026-12-13",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-11/2026-12-13/4/0/0/null",
+   "minimo": 39.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 39.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
    "scali": 0,
    "tipo": "weekend"
   },
@@ -1660,6 +5560,27 @@
    "scali": 0,
    "tipo": "weekend"
   },
+  "2026-12-18_2026-12-20|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-18_2026-12-20",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-18/2026-12-20/4/0/0/null",
+   "minimo": 47.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 47.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
+   "scali": 0,
+   "tipo": "weekend"
+  },
   "2026-12-22_2026-12-26|BUD|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "20:30 → 22:00",
@@ -1678,6 +5599,27 @@
    "prezzo_persona": 107.65,
    "prezzo_prec": null,
    "ritorno": "12:30 → 14:00",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-22_2026-12-26|EVN|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:15",
+   "citta": "Erevan",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "EVN",
+   "finestra": "2026-12-22_2026-12-26",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/EVN/2026-12-22/2026-12-26/4/0/0/null",
+   "minimo": 95.98,
+   "nota": "",
+   "paese": "Armenia",
+   "persone": 4,
+   "prezzo_persona": 95.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 19:10",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -1807,6 +5749,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-22_2026-12-26|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-22_2026-12-26",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-22/2026-12-26/4/0/0/null",
+   "minimo": 34.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 34.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 05:50",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-22_2026-12-26|VIE|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "21:00 → 22:35",
@@ -1828,6 +5791,90 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-22_2026-12-26|WAW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:35",
+   "citta": "Varsavia Chopin\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-12-22_2026-12-26",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WAW/2026-12-22/2026-12-26/4/0/0/null",
+   "minimo": 205.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 205.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 18:10",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-22_2026-12-26|WRO|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 17:05",
+   "citta": "Breslavia",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WRO",
+   "finestra": "2026-12-22_2026-12-26",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WRO/2026-12-22/2026-12-26/4/0/0/null",
+   "minimo": 115.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 115.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 14:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-22_2026-12-26|WSW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:35",
+   "citta": "Warsaw Any",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WSW",
+   "finestra": "2026-12-22_2026-12-26",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WSW/2026-12-22/2026-12-26/4/0/0/null",
+   "minimo": 205.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 205.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 18:10",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-24_2026-12-28|BBU|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Baneasa",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BBU",
+   "finestra": "2026-12-24_2026-12-28",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BBU/2026-12-24/2026-12-28/4/0/0/null",
+   "minimo": 204.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 204.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-24_2026-12-28|BUD|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "11:40 → 13:10",
@@ -1846,6 +5893,27 @@
    "prezzo_persona": 129.98,
    "prezzo_prec": null,
    "ritorno": "20:25 → 21:55",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-24_2026-12-28|BUD|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 15:20",
+   "citta": "Budapest",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-12-24_2026-12-28",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BUD/2026-12-24/2026-12-28/4/0/0/null",
+   "minimo": 149.98,
+   "nota": "",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 149.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:15",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -1954,6 +6022,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-24_2026-12-28|OTP|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Henri Coandă\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-12-24_2026-12-28",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/OTP/2026-12-24/2026-12-28/4/0/0/null",
+   "minimo": 204.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 204.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-24_2026-12-28|PRG|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "13:00 → 14:55",
@@ -1972,6 +6061,27 @@
    "prezzo_persona": 262.98,
    "prezzo_prec": null,
    "ritorno": "09:30 → 11:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-24_2026-12-28|SOF|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 07:55",
+   "citta": "Sofia",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "SOF",
+   "finestra": "2026-12-24_2026-12-28",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/SOF/2026-12-24/2026-12-28/4/0/0/null",
+   "minimo": 75.98,
+   "nota": "",
+   "paese": "Bulgaria",
+   "persone": 4,
+   "prezzo_persona": 75.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 07:00",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -2017,6 +6127,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-24_2026-12-28|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 07:40",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-24_2026-12-28",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-24/2026-12-28/4/0/0/null",
+   "minimo": 55.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 55.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:05",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-24_2026-12-28|VIE|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "12:10 → 13:45",
@@ -2038,6 +6169,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-26_2026-12-30|BBU|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Baneasa",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BBU",
+   "finestra": "2026-12-26_2026-12-30",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BBU/2026-12-26/2026-12-30/4/0/0/null",
+   "minimo": 204.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 204.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-26_2026-12-30|BUD|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "20:35 → 22:05",
@@ -2056,6 +6208,27 @@
    "prezzo_persona": 148.29,
    "prezzo_prec": null,
    "ritorno": "06:30 → 08:00",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-26_2026-12-30|BUD|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 15:20",
+   "citta": "Budapest",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-12-26_2026-12-30",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BUD/2026-12-26/2026-12-30/4/0/0/null",
+   "minimo": 224.98,
+   "nota": "",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 224.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:15",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -2206,6 +6379,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-26_2026-12-30|OTP|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Henri Coandă\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-12-26_2026-12-30",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/OTP/2026-12-26/2026-12-30/4/0/0/null",
+   "minimo": 204.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 204.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-26_2026-12-30|PRG|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "09:25 → 11:20",
@@ -2269,6 +6463,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-26_2026-12-30|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 07:25",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-26_2026-12-30",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-26/2026-12-30/4/0/0/null",
+   "minimo": 91.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 91.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:05",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-26_2026-12-30|VIE|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "16:20 → 17:55",
@@ -2290,6 +6505,69 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-26_2026-12-30|WAW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:55",
+   "citta": "Varsavia Chopin\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-12-26_2026-12-30",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WAW/2026-12-26/2026-12-30/4/0/0/null",
+   "minimo": 189.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 189.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 18:05",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-26_2026-12-30|WSW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:55",
+   "citta": "Warsaw Any",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WSW",
+   "finestra": "2026-12-26_2026-12-30",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WSW/2026-12-26/2026-12-30/4/0/0/null",
+   "minimo": 189.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 189.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 18:05",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-28_2027-01-01|BBU|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Baneasa",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BBU",
+   "finestra": "2026-12-28_2027-01-01",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BBU/2026-12-28/2027-01-01/4/0/0/null",
+   "minimo": 149.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 149.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-28_2027-01-01|BUD|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "22:20 → 23:50",
@@ -2308,6 +6586,27 @@
    "prezzo_persona": 139.88,
    "prezzo_prec": null,
    "ritorno": "11:10 → 12:40",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-28_2027-01-01|BUD|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 15:20",
+   "citta": "Budapest",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-12-28_2027-01-01",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BUD/2026-12-28/2027-01-01/4/0/0/null",
+   "minimo": 179.98,
+   "nota": "",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 179.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:15",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -2458,6 +6757,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-28_2027-01-01|OTP|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Henri Coandă\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-12-28_2027-01-01",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/OTP/2026-12-28/2027-01-01/4/0/0/null",
+   "minimo": 149.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 149.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-28_2027-01-01|POZ|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "09:45 → 11:55",
@@ -2497,6 +6817,27 @@
    "prezzo_persona": 290.08,
    "prezzo_prec": null,
    "ritorno": "17:35 → 19:35",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-28_2027-01-01|SKP|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 18:35",
+   "citta": "Skopje",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "SKP",
+   "finestra": "2026-12-28_2027-01-01",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/SKP/2026-12-28/2027-01-01/4/0/0/null",
+   "minimo": 79.98,
+   "nota": "",
+   "paese": "Macedonia del Nord",
+   "persone": 4,
+   "prezzo_persona": 79.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 16:50",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -2542,6 +6883,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-28_2027-01-01|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 07:40",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-28_2027-01-01",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-28/2027-01-01/4/0/0/null",
+   "minimo": 101.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 101.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 21:20",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-28_2027-01-01|VIE|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "21:10 → 22:45",
@@ -2584,6 +6946,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-30_2027-01-03|BBU|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Baneasa",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BBU",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BBU/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 290.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 290.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-30_2027-01-03|BUD|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "13:25 → 14:55",
@@ -2605,6 +6988,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-30_2027-01-03|BUD|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 15:20",
+   "citta": "Budapest",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BUD/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 234.98,
+   "nota": "",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 234.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-30_2027-01-03|BVA|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "08:45 → 11:20",
@@ -2623,6 +7027,27 @@
    "prezzo_persona": 301.58,
    "prezzo_prec": null,
    "ritorno": "09:20 → 11:40",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-30_2027-01-03|CRA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 13:20",
+   "citta": "Craiova",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "CRA",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/CRA/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 129.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 129.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 11:55",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -2731,6 +7156,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-30_2027-01-03|OTP|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Henri Coandă\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/OTP/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 290.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 290.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-30_2027-01-03|POZ|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "09:50 → 12:00",
@@ -2770,6 +7216,27 @@
    "prezzo_persona": 469.98,
    "prezzo_prec": null,
    "ritorno": "16:00 → 18:00",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-30_2027-01-03|SOF|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 08:00",
+   "citta": "Sofia",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "SOF",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/SOF/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 149.98,
+   "nota": "",
+   "paese": "Bulgaria",
+   "persone": 4,
+   "prezzo_persona": 149.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 07:00",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -2836,6 +7303,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-30_2027-01-03|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 07:40",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 145.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 145.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2026-12-30_2027-01-03|VIE|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "20:35 → 22:10",
@@ -2878,6 +7366,69 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2026-12-30_2027-01-03|WAW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:55",
+   "citta": "Varsavia Chopin\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WAW/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 314.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 314.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 17:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2026-12-30_2027-01-03|WSW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:55",
+   "citta": "Warsaw Any",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WSW",
+   "finestra": "2026-12-30_2027-01-03",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WSW/2026-12-30/2027-01-03/4/0/0/null",
+   "minimo": 314.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 314.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 17:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-01_2027-01-05|BBU|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Baneasa",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BBU",
+   "finestra": "2027-01-01_2027-01-05",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BBU/2027-01-01/2027-01-05/4/0/0/null",
+   "minimo": 174.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 174.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2027-01-01_2027-01-05|BUD|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "20:30 → 22:00",
@@ -2896,6 +7447,27 @@
    "prezzo_persona": 168.98,
    "prezzo_prec": null,
    "ritorno": "13:45 → 15:15",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-01_2027-01-05|BUD|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 15:20",
+   "citta": "Budapest",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2027-01-01_2027-01-05",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BUD/2027-01-01/2027-01-05/4/0/0/null",
+   "minimo": 159.98,
+   "nota": "",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 159.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:15",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -2959,6 +7531,27 @@
    "prezzo_persona": 179.08,
    "prezzo_prec": null,
    "ritorno": "18:45 → 20:40",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-01_2027-01-05|OTP|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Henri Coandă\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2027-01-01_2027-01-05",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/OTP/2027-01-01/2027-01-05/4/0/0/null",
+   "minimo": 174.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 174.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -3046,6 +7639,48 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2027-01-01_2027-01-05|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2027-01-01_2027-01-05",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2027-01-01/2027-01-05/4/0/0/null",
+   "minimo": 65.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 65.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 05:50",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-02_2027-01-06|BBU|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Baneasa",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BBU",
+   "finestra": "2027-01-02_2027-01-06",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BBU/2027-01-02/2027-01-06/4/0/0/null",
+   "minimo": 249.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 249.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2027-01-02_2027-01-06|BUD|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "20:35 → 22:05",
@@ -3064,6 +7699,27 @@
    "prezzo_persona": 209.98,
    "prezzo_prec": null,
    "ritorno": "11:30 → 13:00",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-02_2027-01-06|BUD|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 15:20",
+   "citta": "Budapest",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "BUD",
+   "finestra": "2027-01-02_2027-01-06",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/BUD/2027-01-02/2027-01-06/4/0/0/null",
+   "minimo": 189.98,
+   "nota": "",
+   "paese": "Ungheria",
+   "persone": 4,
+   "prezzo_persona": 189.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:15",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -3130,6 +7786,27 @@
    "scali": 0,
    "tipo": "vacanza"
   },
+  "2027-01-02_2027-01-06|OTP|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 14:55",
+   "citta": "Bucarest Henri Coandă\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "OTP",
+   "finestra": "2027-01-02_2027-01-06",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/OTP/2027-01-02/2027-01-06/4/0/0/null",
+   "minimo": 249.98,
+   "nota": "",
+   "paese": "Romania",
+   "persone": 4,
+   "prezzo_persona": 249.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 13:30",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
   "2027-01-02_2027-01-06|STN|ryanair": {
    "aggiornato": "2026-10-23",
    "andata": "18:25 → 20:20",
@@ -3169,6 +7846,69 @@
    "prezzo_persona": 91.98,
    "prezzo_prec": null,
    "ritorno": "11:40 → 12:35",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-02_2027-01-06|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 07:25",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2027-01-02_2027-01-06",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2027-01-02/2027-01-06/4/0/0/null",
+   "minimo": 85.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 85.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:05",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-02_2027-01-06|WAW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:55",
+   "citta": "Varsavia Chopin\r\n",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WAW",
+   "finestra": "2027-01-02_2027-01-06",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WAW/2027-01-02/2027-01-06/4/0/0/null",
+   "minimo": 199.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 199.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 18:05",
+   "scali": 0,
+   "tipo": "vacanza"
+  },
+  "2027-01-02_2027-01-06|WSW|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 20:55",
+   "citta": "Warsaw Any",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "WSW",
+   "finestra": "2027-01-02_2027-01-06",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/WSW/2027-01-02/2027-01-06/4/0/0/null",
+   "minimo": 199.98,
+   "nota": "",
+   "paese": "Polonia",
+   "persone": 4,
+   "prezzo_persona": 199.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 18:05",
    "scali": 0,
    "tipo": "vacanza"
   },
@@ -3358,6 +8098,27 @@
    "prezzo_persona": 52.98,
    "prezzo_prec": null,
    "ritorno": "06:00 → 06:55",
+   "scali": 0,
+   "tipo": "weekend"
+  },
+  "2027-01-08_2027-01-10|TIA|wizzair": {
+   "aggiornato": "2026-10-23",
+   "andata": "partenza 22:55",
+   "citta": "Tirana",
+   "compagnie": [
+    "Wizz Air"
+   ],
+   "destinazione": "TIA",
+   "finestra": "2027-01-08_2027-01-10",
+   "fonte": "wizzair",
+   "link": "https://wizzair.com/it-it/booking/select-flight/BRI/TIA/2027-01-08/2027-01-10/4/0/0/null",
+   "minimo": 39.98,
+   "nota": "",
+   "paese": "Albania",
+   "persone": 4,
+   "prezzo_persona": 39.98,
+   "prezzo_prec": null,
+   "ritorno": "partenza 06:25",
    "scali": 0,
    "tipo": "weekend"
   }
