@@ -53,6 +53,6 @@ jobs:
         run: |
           git config user.name "scanner-voli"
           git config user.email "scanner-voli@users.noreply.github.com"
-          git add data/prezzi.json
+          git add data/prezzi.json data/diagnostica.txt
           git diff --cached --quiet || git commit -m "Prezzi del $(date +%F)"
           git push

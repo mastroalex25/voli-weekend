@@ -40,7 +40,7 @@ def esegui(prova: bool = False, manda: bool = True, oggi: date | None = None) ->
     archivio = Archivio(os.path.join(QUI, "data", "prezzi_prova.json" if prova else "prezzi.json"))
     archivio.pulisci(oggi, {f.chiave for f in finestre}, r["validita_cache_giorni"])
 
-    riassunto, avvisi = [], []
+    riassunto, avvisi, errori_dettaglio = [], [], []
     if prova:
         from .prova import offerte_finte
         archivio.aggiorna(offerte_finte(finestre, cfg, oggi_s))
@@ -50,10 +50,12 @@ def esegui(prova: bool = False, manda: bool = True, oggi: date | None = None) ->
         if fonti.get("ryanair"):
             from .fonti import ryanair
             off, err = ryanair.cerca_tutto(finestre, cfg, oggi_s)
+            errori_dettaglio.extend(err)
             _registra(archivio, "ryanair", off, err, oggi_s, riassunto, avvisi, f"Ryanair {len(off)} tariffe")
         if fonti.get("wizzair"):
             from .fonti import wizzair
             off, err = wizzair.cerca_tutto(finestre, cfg, oggi_s)
+            errori_dettaglio.extend(err)
             _registra(archivio, "wizzair", off, err, oggi_s, riassunto, avvisi, f"Wizz {len(off)} tariffe")
         if fonti.get("google_flights"):
             from .fonti import google
@@ -63,6 +65,7 @@ def esegui(prova: bool = False, manda: bool = True, oggi: date | None = None) ->
             lavori.sort(key=lambda x: (archivio.ultimo_controllo(x[0].chiave, x[1]), x[0].andata))
             lavori = lavori[: int(r["google_max_ricerche_giorno"])]
             off, err, controllati = google.cerca_tutto(lavori, cfg, oggi_s)
+            errori_dettaglio.extend(err)
             archivio.aggiorna(off)
             archivio.segna_controllati(controllati, oggi_s)
             riassunto.append(f"Google {len(lavori)} ricerche")
@@ -70,6 +73,9 @@ def esegui(prova: bool = False, manda: bool = True, oggi: date | None = None) ->
                 avvisi.append(f"Google: {len(err)} errori (es. {err[0][:90]})")
 
     archivio.salva()
+    if not prova:
+        with open(os.path.join(QUI, "data", "diagnostica.txt"), "w", encoding="utf-8") as fh:
+            fh.write(f"{oggi_s}\n" + ", ".join(riassunto) + "\n\n" + "\n".join(errori_dettaglio[:60]) + "\n")
     voci = archivio.offerte()
     top = classifica(voci, cfg["classifica"]["top"], cfg["classifica"]["una_volta_per_citta"])
     ponti = migliori_ponti(voci, cfg["classifica"]["sezione_ponti"])

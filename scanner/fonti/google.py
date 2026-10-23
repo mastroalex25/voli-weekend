@@ -92,7 +92,9 @@ def cerca_tutto(lavori: list[tuple[Finestra, str, str]], cfg: dict, oggi: str) -
                 offerte.append(off)
         except Exception as e:  # rete, blocchi, cambi di formato della pagina
             di_fila += 1
-            errori.append(f"{dest} {finestra.chiave}: {type(e).__name__}: {e}"[:200])
+            import traceback
+            errori.append(f"{dest} {finestra.chiave}: {type(e).__name__}: {e} || "
+                          + traceback.format_exc()[-600:].replace("\n", " / "))
             log.warning("Google %s %s: %s", dest, finestra.chiave, e)
             if di_fila >= 8:
                 errori.append("Google: interrotto dopo 8 errori consecutivi")
