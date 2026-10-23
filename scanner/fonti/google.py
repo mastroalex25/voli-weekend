@@ -91,7 +91,7 @@ def cerca_tutto(lavori: list[tuple[Finestra, str, str]], cfg: dict, oggi: str) -
         try:
             off = cerca(finestra, dest, nome, cfg, oggi)
             di_fila = 0
-            controllati.append(f"{finestra.chiave}|{dest}")
+            controllati.append(f"{finestra.chiave}|{cfg['partenza']}|{dest}")
             if off:
                 offerte.append(off)
         except Exception as e:  # rete, blocchi, cambi di formato della pagina

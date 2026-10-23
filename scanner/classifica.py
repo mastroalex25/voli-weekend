@@ -27,8 +27,9 @@ class Archivio:
         if os.path.exists(percorso):
             with open(percorso, encoding="utf-8") as fh:
                 dati = json.load(fh)
-            self.voci = dati.get("offerte", {})
-            self.controlli = dati.get("controlli_google", {})
+            # le chiavi senza aeroporto di partenza sono del vecchio formato: si scartano
+            self.voci = {k: v for k, v in dati.get("offerte", {}).items() if k.count("|") == 3}
+            self.controlli = {k: v for k, v in dati.get("controlli_google", {}).items() if k.count("|") == 2}
 
     def pulisci(self, oggi: date, finestre_valide: set[str], validita_giorni: int) -> None:
         limite = (oggi - timedelta(days=validita_giorni)).isoformat()
@@ -37,8 +38,8 @@ class Archivio:
         self.controlli = {k: v for k, v in self.controlli.items()
                           if k.split("|")[0] in finestre_valide}
 
-    def ultimo_controllo(self, finestra: str, dest: str) -> str:
-        return self.controlli.get(f"{finestra}|{dest}", "")
+    def ultimo_controllo(self, finestra: str, partenza: str, dest: str) -> str:
+        return self.controlli.get(f"{finestra}|{partenza}|{dest}", "")
 
     def segna_controllati(self, coppie: list[str], oggi: str) -> None:
         for c in coppie:
@@ -72,14 +73,38 @@ class Archivio:
         return list(self.voci.values())
 
 
+def costo(v: dict) -> float:
+    """Costo reale per la famiglia: voli + extra auto se si parte da un altro aeroporto."""
+    return v["prezzo_persona"] * v["persone"] + v.get("costo_extra", 0)
+
+
+def filtra_convenienti(voci: list[dict], risparmio_minimo: float) -> list[dict]:
+    """Tiene i voli da aeroporti alternativi solo se valgono il viaggio in auto."""
+    base: dict[tuple, float] = {}
+    for v in voci:
+        if v.get("partenza", "BRI") == "BRI":
+            k = (v["finestra"], _norm(v["citta"]))
+            base[k] = min(base.get(k, float("inf")), costo(v))
+    out = []
+    for v in voci:
+        if v.get("partenza", "BRI") == "BRI":
+            out.append(v)
+            continue
+        riferimento = base.get((v["finestra"], _norm(v["citta"])))
+        if riferimento is None or costo(v) <= riferimento - risparmio_minimo:
+            v = dict(v, risparmio=None if riferimento is None else round(riferimento - costo(v)))
+            out.append(v)
+    return out
+
+
 def classifica(voci: list[dict], top: int, una_per_citta: bool) -> list[dict]:
-    # per ogni (finestra, città) tengo la fonte più economica
+    # per ogni (finestra, città) tengo l'opzione più economica
     migliori: dict[tuple, dict] = {}
     for v in voci:
         k = (v["finestra"], _norm(v["citta"]))
-        if k not in migliori or v["prezzo_persona"] < migliori[k]["prezzo_persona"]:
+        if k not in migliori or costo(v) < costo(migliori[k]):
             migliori[k] = v
-    ordinate = sorted(migliori.values(), key=lambda v: (v["prezzo_persona"] * v["persone"], v["finestra"]))
+    ordinate = sorted(migliori.values(), key=lambda v: (costo(v), v["finestra"]))
     if not una_per_citta:
         return ordinate[:top]
     out, viste = [], set()
@@ -100,7 +125,7 @@ def migliori_ponti(voci: list[dict], n: int) -> list[dict]:
         if v["tipo"] == "weekend":
             continue
         f = v["finestra"]
-        if f not in per_finestra or v["prezzo_persona"] < per_finestra[f]["prezzo_persona"]:
+        if f not in per_finestra or costo(v) < costo(per_finestra[f]):
             per_finestra[f] = v
     return sorted(per_finestra.values(), key=lambda v: v["finestra"])[:n]
 

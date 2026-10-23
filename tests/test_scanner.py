@@ -95,3 +95,24 @@ def test_ryanair_rientro_entro_le_5_del_giorno_dopo():
 
     dati = {"fares": [fare("AAA", "2026-11-09T01:30:00"), fare("BBB", "2026-11-09T06:10:00")]}
     assert [o.destinazione for o in ryanair.interpreta(dati, f, cfg, "2026-10-23")] == ["AAA"]
+
+
+def test_aeroporti_alternativi_solo_se_conviene():
+    from scanner.classifica import filtra_convenienti
+    base = {"tipo": "weekend", "persone": 4, "paese": "", "destinazione": "X", "fonte": "ryanair",
+            "finestra": "a"}
+    voci = [dict(base, citta="Budapest", prezzo_persona=60, partenza="BRI"),           # 240
+            dict(base, citta="Budapest", prezzo_persona=40, partenza="NAP", costo_extra=75),  # 235: no
+            dict(base, citta="Praga", prezzo_persona=80, partenza="BRI"),              # 320
+            dict(base, citta="Praga", prezzo_persona=30, partenza="BDS", costo_extra=35),     # 155: sì
+            dict(base, citta="Edimburgo", prezzo_persona=50, partenza="NAP", costo_extra=75)]  # da Bari no
+    tenute = {(v["citta"], v["partenza"]) for v in filtra_convenienti(voci, 60)}
+    assert ("Budapest", "NAP") not in tenute
+    assert ("Praga", "BDS") in tenute and ("Edimburgo", "NAP") in tenute
+
+
+def test_orari_adattati_per_napoli():
+    from scanner.main import configurazioni_partenza
+    nap = [x for x, _ in configurazioni_partenza(carica_config()) if x["partenza"] == "NAP"][0]
+    assert nap["orari"]["andata_dopo"] == "17:20"
+    assert nap["orari"]["rientro_a_bari_entro_giorno_dopo"] == "03:40"

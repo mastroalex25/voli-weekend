@@ -9,6 +9,16 @@ passeggeri:
   adulti: 3                  # 16+ anni (Sofia conta come adulta per le compagnie)
   ragazzi_12_15: 1           # Flavio: "teen" per Ryanair, adulto per Google/Wizz
 
+# Aeroporti alternativi: entrano in classifica solo se, sommando il costo
+# extra dell'auto, fanno risparmiare almeno "risparmio_minimo" rispetto a Bari.
+# costo_extra = carburante + pedaggi + parcheggio IN PIÙ rispetto ad andare a Bari
+# minuti_extra = tempo di guida in più (sposta l'orario minimo di partenza e
+#                anticipa l'orario massimo di atterraggio al ritorno)
+aeroporti_alternativi:
+  BDS: {nome: "Brindisi", costo_extra: 35, minuti_extra: 70}
+  NAP: {nome: "Napoli", costo_extra: 75, minuti_extra: 80}
+risparmio_minimo: 60
+
 orari:
   andata_dopo: "16:00"       # se il giorno di partenza è lavorativo
   ritorno_partenza_dopo: "00:00"   # volo di rientro (ultimo giorno): qualsiasi ora
@@ -24,7 +34,8 @@ ricerca:
   giorni_minimi_preavviso: 2 # ignora partenze troppo vicine
   max_scali: 1               # 0 = solo diretti, 1 = fino a uno scalo
   notti_max_finestra: 4      # nelle vacanze lunghe (Natale, Pasqua) spezza in viaggi di N notti
-  google_max_ricerche_giorno: 450   # limite per non farsi bloccare da Google
+  google_max_ricerche_giorno: 450   # limite per non farsi bloccare da Google (da Bari)
+  google_max_ricerche_alternativi: 200   # in più, divise tra Brindisi e Napoli
   pausa_tra_ricerche_sec: 2.0
   validita_cache_giorni: 3   # prezzi non ricontrollati oggi restano validi per N giorni
 

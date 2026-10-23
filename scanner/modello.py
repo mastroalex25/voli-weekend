@@ -20,6 +20,8 @@ class Offerta:
     link: str = ""
     nota: str = ""
     aggiornato: str = ""    # data ISO dell'ultima verifica
+    partenza: str = "BRI"
+    costo_extra: float = 0  # auto/parcheggio in più rispetto a Bari (totale famiglia)
 
     @property
     def prezzo_totale(self) -> float:
@@ -27,7 +29,7 @@ class Offerta:
 
     @property
     def chiave(self) -> str:
-        return f"{self.finestra}|{self.destinazione}|{self.fonte}"
+        return f"{self.finestra}|{self.partenza}|{self.destinazione}|{self.fonte}"
 
     def to_dict(self) -> dict:
         return asdict(self)

@@ -30,6 +30,7 @@ def _riga(v: dict, simbolo: str) -> str:
     e = html.escape
     f = finestra_da_chiave(v["finestra"], v["tipo"])
     tot = v["prezzo_persona"] * v["persone"]
+    extra = v.get("costo_extra", 0)
     scali = "diretto" if v.get("scali", 0) == 0 else f"{v['scali']} scalo"
     minimo = v.get("minimo")
     record = " · ⭐ minimo visto" if v.get("prezzo_prec") and minimo and v["prezzo_persona"] <= minimo else ""
@@ -40,6 +41,12 @@ def _riga(v: dict, simbolo: str) -> str:
         f"🛫 {e(v.get('andata',''))}   🛬 {e(v.get('ritorno',''))}",
         f"{e(', '.join(v.get('compagnie', [])))} · {scali} · {_tendenza(v)}{record}",
     ]
+    if v.get("partenza", "BRI") != "BRI":
+        nomi = {"BDS": "Brindisi", "NAP": "Napoli"}
+        risp = v.get("risparmio")
+        risp_txt = f" · risparmi {_euro(risp)} rispetto a Bari" if risp else " · da Bari non c'è"
+        righe.insert(1, f"🚗 <b>Parte da {nomi.get(v['partenza'], v['partenza'])}</b>: "
+                        f"con auto e parcheggio ({_euro(extra)}) = <b>{_euro(tot + extra)}</b>{risp_txt}")
     if v.get("nota"):
         righe.append(f"<i>{e(v['nota'])}</i>")
     righe.append(f'<a href="{e(v["link"], quote=True)}">Verifica su {FONTI.get(v["fonte"], v["fonte"])}</a>')
@@ -50,7 +57,7 @@ def componi(top: list[dict], ponti: list[dict], stato: dict, oggi: date, cfg: di
     bag = "trolley in cabina" if cfg["bagaglio"]["trolley_cabina"] else "solo borsa piccola"
     persone = int(cfg["passeggeri"]["adulti"]) + int(cfg["passeggeri"]["ragazzi_12_15"])
     parti = [
-        f"✈️ <b>Voli da Bari — {oggi.strftime('%d/%m/%Y')}</b>",
+        f"✈️ <b>Voli da Bari (+ Brindisi/Napoli se convengono) — {oggi.strftime('%d/%m/%Y')}</b>",
         f"<i>Totale a/r per {persone} persone, {bag}, max {cfg['ricerca']['max_scali']} scalo</i>",
         "",
     ]
@@ -62,8 +69,9 @@ def componi(top: list[dict], ponti: list[dict], stato: dict, oggi: date, cfg: di
         parti += ["🌉 <b>Migliori ponti e vacanze</b>"]
         for v in ponti:
             f = finestra_da_chiave(v["finestra"], v["tipo"])
+            da = "" if v.get("partenza", "BRI") == "BRI" else f" (da {v['partenza']}, auto inclusa)"
             parti.append(f"• {f.etichetta()}: <b>{html.escape(v['citta'])}</b> "
-                         f"{_euro(v['prezzo_persona'] * v['persone'])} "
+                         f"{_euro(v['prezzo_persona'] * v['persone'] + v.get('costo_extra', 0))}{da} "
                          f'(<a href="{html.escape(v["link"], quote=True)}">link</a>)')
         parti.append("")
     parti.append(f"<i>Controllato oggi: {stato['riassunto']}</i>")
