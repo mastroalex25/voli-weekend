@@ -17,7 +17,7 @@ passeggeri:
 aeroporti_alternativi:
   BDS: {nome: "Brindisi", costo_extra: 35, minuti_extra: 70}
   NAP: {nome: "Napoli", costo_extra: 75, minuti_extra: 80}
-risparmio_minimo: 60
+risparmio_minimo: 80
 
 orari:
   andata_dopo: "16:00"       # se il giorno di partenza è lavorativo
