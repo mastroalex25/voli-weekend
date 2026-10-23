@@ -35,6 +35,7 @@ def cerca(finestra: Finestra, dest: str, nome: str, cfg: dict, oggi: str) -> Off
                         to_airport=dest, earliest_departure_hour=h_andata),
             FlightQuery(date=finestra.ritorno.isoformat(), from_airport=dest,
                         to_airport=cfg["partenza"], earliest_departure_hour=h_rit,
+                        max_layover_minutes=240,   # niente notti in aeroporto negli scali
                         latest_arrival_hour=h_arr),
         ],
         trip="round-trip",
@@ -71,7 +72,7 @@ def cerca(finestra: Finestra, dest: str, nome: str, cfg: dict, oggi: str) -> Off
         andata=f"{_ora(primo.departure.time)} → {_ora(ultimo.arrival.time)}",
         ritorno="orari sul link",
         link=q.url(),
-        nota="prezzo a persona ×4 (stima)",
+        nota="prezzo a persona ×4 (stima) · con scalo controlla che il rientro sia entro le 5:00" if len(best.flights) > 1 else "prezzo a persona ×4 (stima)",
         aggiornato=oggi,
     )
 

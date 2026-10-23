@@ -8,7 +8,7 @@ Telegram e continua con le altre fonti.
 """
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import requests
 
@@ -70,8 +70,9 @@ def interpreta(dati: dict, f: Finestra, cfg: dict, oggi: str) -> list[Offerta]:
             continue
         if _hm(ib.get("departureDate", "")) < o["ritorno_partenza_dopo"]:
             continue
-        if o.get("ritorno_arrivo_entro") and _hm(ib.get("arrivalDate", "")) > o["ritorno_arrivo_entro"] and \
-                ib.get("arrivalDate", "")[:10] == f.ritorno.isoformat():
+        limite = o.get("rientro_a_bari_entro_giorno_dopo")
+        arrivo = ib.get("arrivalDate", "")[:16]
+        if limite and arrivo and arrivo > f"{(f.ritorno + timedelta(days=1)).isoformat()}T{limite}":
             continue
         prezzo = (fare.get("summary") or {}).get("price", {}).get("value")
         if prezzo is None:

@@ -81,3 +81,17 @@ def test_config_valida():
     with open("config.yaml", encoding="utf-8") as fh:
         cfg = yaml.safe_load(fh)
     assert all(len(k) == 3 and k.isupper() for k in cfg["destinazioni"])
+
+
+def test_ryanair_rientro_entro_le_5_del_giorno_dopo():
+    cfg = carica_config()
+    f = Finestra(date(2026, 11, 6), date(2026, 11, 8), True, "weekend")
+
+    def fare(iata, arrivo):
+        return {"outbound": {"arrivalAirport": {"iataCode": iata, "countryName": "X", "name": iata},
+                             "departureDate": "2026-11-06T18:00:00", "arrivalDate": "2026-11-06T20:00:00"},
+                "inbound": {"departureDate": "2026-11-08T23:00:00", "arrivalDate": arrivo},
+                "summary": {"price": {"value": 50}}}
+
+    dati = {"fares": [fare("AAA", "2026-11-09T01:30:00"), fare("BBB", "2026-11-09T06:10:00")]}
+    assert [o.destinazione for o in ryanair.interpreta(dati, f, cfg, "2026-10-23")] == ["AAA"]

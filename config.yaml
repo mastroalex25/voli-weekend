@@ -12,7 +12,8 @@ passeggeri:
 orari:
   andata_dopo: "16:00"       # se il giorno di partenza è lavorativo
   ritorno_partenza_dopo: "00:00"   # volo di rientro (ultimo giorno): qualsiasi ora
-  ritorno_arrivo_entro: null       # null = nessun limite, va bene atterrare anche dopo mezzanotte
+  ritorno_arrivo_entro: null       # (non usato: vale la regola sotto)
+  rientro_a_bari_entro_giorno_dopo: "05:00"  # atterraggio a Bari entro le 5 del mattino dopo l'ultimo giorno libero
 
 bagaglio:
   trolley_cabina: false      # false = solo borsa piccola sotto il sedile (gratis sulle low cost)
@@ -23,7 +24,7 @@ ricerca:
   giorni_minimi_preavviso: 2 # ignora partenze troppo vicine
   max_scali: 1               # 0 = solo diretti, 1 = fino a uno scalo
   notti_max_finestra: 4      # nelle vacanze lunghe (Natale, Pasqua) spezza in viaggi di N notti
-  google_max_ricerche_giorno: 220   # limite per non farsi bloccare da Google
+  google_max_ricerche_giorno: 450   # limite per non farsi bloccare da Google
   pausa_tra_ricerche_sec: 2.0
   validita_cache_giorni: 3   # prezzi non ricontrollati oggi restano validi per N giorni
 
