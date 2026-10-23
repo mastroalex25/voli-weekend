@@ -48,6 +48,9 @@ def cerca(finestra: Finestra, dest: str, nome: str, cfg: dict, oggi: str) -> Off
         risultati = get_flights(q)
     except FlightsNotFound:
         return None
+    except (TypeError, IndexError):
+        # Google risponde con una pagina senza risultati: rotta non servita quel giorno
+        return None
 
     validi = [r for r in risultati if r.price and r.flights]
     if not validi:
