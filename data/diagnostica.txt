@@ -1,6 +1,6 @@
-2026-10-24
-Ryanair 300 tariffe, Wizzair 102 tariffe, Google 650 ricerche
+2026-10-25
+Ryanair 300 tariffe, Wizzair 114 tariffe, Google 650 ricerche
 
-[NAP] Wizz BTS 2026-12-11: HTTPError
-[NAP] Wizz BUD 2026-10-30: HTTPError
-[NAP] Wizz WSW 2026-12-11: HTTPError
+[NAP] Wizz CLJ 2026-12-11: HTTPError
+[NAP] Wizz CRA 2026-10-30: HTTPError
+[NAP] Wizz CRA 2026-12-11: HTTPError
