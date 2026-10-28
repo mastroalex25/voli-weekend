@@ -17,7 +17,7 @@ import yaml
 
 from . import telegram
 from .calendario import Calendario
-from .classifica import Archivio, classifica_variata, filtra_convenienti, migliori_ponti
+from .classifica import Archivio, classifica_etichettata, filtra_convenienti, migliori_ponti
 
 QUI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 log = logging.getLogger("scanner")
@@ -91,18 +91,19 @@ def esegui(prova: bool = False, manda: bool = True, oggi: date | None = None) ->
         with open(os.path.join(QUI, "data", "diagnostica.txt"), "w", encoding="utf-8") as fh:
             fh.write(f"{oggi_s}\n" + ", ".join(riassunto) + "\n\n" + "\n".join(errori_dettaglio[:60]) + "\n")
     escludi = {c.upper() for c in cfg.get("escludi_aeroporti") or []}
-    voci = [v for v in archivio.offerte() if v["destinazione"].upper() not in escludi]
+    paesi = {p.lower() for p in cfg.get("escludi_paesi") or []}
+    voci = [v for v in archivio.offerte()
+            if v["destinazione"].upper() not in escludi and str(v.get("paese", "")).lower() not in paesi]
     voci = filtra_convenienti(voci, float(cfg.get("risparmio_minimo", 0)))
     cl = cfg["classifica"]
-    top, gia_viste = classifica_variata(voci, cl["top"], archivio.mostrate, oggi,
-                                        int(cl.get("pausa_citta_giorni", 7)),
-                                        float(cl.get("calo_per_riproporre", 0.10)))
+    top = classifica_etichettata(voci, int(cl["top"]) + int(cl.get("altre_in_breve", 0)),
+                                 archivio.mostrate)
     if not prova:
         archivio.segna_mostrate(top, oggi_s)
         archivio.salva()
     ponti = migliori_ponti(voci, cfg["classifica"]["sezione_ponti"])
     testo = telegram.componi(top, ponti, {"riassunto": ", ".join(riassunto), "avvisi": avvisi}, oggi, cfg,
-                             gia_viste=gia_viste[: int(cl.get("righe_gia_proposte", 6))])
+                             dettaglio=int(cl["top"]))
 
     if manda:
         token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")

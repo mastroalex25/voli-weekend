@@ -45,6 +45,8 @@ def _riga(v: dict, simbolo: str) -> str:
         righe[0] += " ✨ <i>mai proposta</i>"
     elif v.get("calo_da_proposta"):
         righe[0] += f" · 🔻 {_euro(v['calo_da_proposta'])} dall'ultima volta"
+    else:
+        righe[0] += " · <i>già vista</i>"
     if v.get("partenza", "BRI") != "BRI":
         nomi = {"BDS": "Brindisi", "NAP": "Napoli"}
         risp = v.get("risparmio")
@@ -58,7 +60,7 @@ def _riga(v: dict, simbolo: str) -> str:
 
 
 def componi(top: list[dict], ponti: list[dict], stato: dict, oggi: date, cfg: dict,
-            gia_viste: list[dict] | None = None) -> str:
+            dettaglio: int = 5) -> str:
     bag = "trolley in cabina" if cfg["bagaglio"]["trolley_cabina"] else "solo borsa piccola"
     persone = int(cfg["passeggeri"]["adulti"]) + int(cfg["passeggeri"]["ragazzi_12_15"])
     parti = [
@@ -68,16 +70,20 @@ def componi(top: list[dict], ponti: list[dict], stato: dict, oggi: date, cfg: di
     ]
     if not top:
         parti.append("Nessun volo trovato oggi con i filtri impostati.")
-    for i, v in enumerate(top):
+    for i, v in enumerate(top[:dettaglio]):
         parti += [_riga(v, MEDAGLIE[i]), ""]
-    if gia_viste:
-        voci = []
-        for v in gia_viste:
+    altre = top[dettaglio:]
+    if altre:
+        parti.append("➕ <b>Le altre più economiche</b>")
+        for i, v in enumerate(altre, start=dettaglio + 1):
             f = finestra_da_chiave(v["finestra"], v["tipo"])
-            voci.append(f'<a href="{html.escape(v["link"], quote=True)}">{html.escape(v["citta"])}</a> '
-                        f"{_euro(v['prezzo_persona'] * v['persone'] + v.get('costo_extra', 0))} "
-                        f"({f.andata.day}/{f.andata.month})")
-        parti += ["🔁 <b>Già proposte, ancora valide:</b> " + " · ".join(voci), ""]
+            segno = " ✨" if v.get("mai_proposta") else (" 🔻" if v.get("calo_da_proposta") else "")
+            da = "" if v.get("partenza", "BRI") == "BRI" else f", da {v['partenza']} auto incl."
+            parti.append(f"{i}. <b>{html.escape(v['citta'])}</b>{segno} — "
+                         f"{_euro(v['prezzo_persona'] * v['persone'] + v.get('costo_extra', 0))} · "
+                         f"{f.etichetta()}{da} · "
+                         f'<a href="{html.escape(v["link"], quote=True)}">link</a>')
+        parti.append("")
     if ponti:
         parti += ["🌉 <b>Migliori ponti e vacanze</b>"]
         for v in ponti:

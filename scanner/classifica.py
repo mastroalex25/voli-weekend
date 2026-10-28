@@ -126,30 +126,20 @@ def classifica(voci: list[dict], top: int, una_per_citta: bool) -> list[dict]:
     return out
 
 
-def classifica_variata(voci: list[dict], top: int, mostrate: dict, oggi: date,
-                       giorni_pausa: int, calo_minimo: float) -> tuple[list[dict], list[dict]]:
-    """Come classifica(), ma una città già proposta negli ultimi giorni lascia il posto
-    ad altre, a meno che il prezzo non sia sceso abbastanza. Restituisce
-    (top, già_proposte_ancora_valide)."""
-    tutte = classifica(voci, 10_000, True)
-    limite = (oggi - timedelta(days=giorni_pausa)).isoformat()
-    nuove, rimandate = [], []
-    for v in tutte:
+def classifica_etichettata(voci: list[dict], top: int, mostrate: dict) -> list[dict]:
+    """Classifica pura per prezzo (niente viene nascosto), con un'etichetta per
+    riconoscere le città mai proposte e quelle scese di prezzo."""
+    out = []
+    for v in classifica(voci, top, True):
         m = mostrate.get(_norm(v["citta"]))
-        if m and m["data"] > limite and costo(v) > m["costo"] * (1 - calo_minimo):
-            rimandate.append(v)
+        if not m:
+            v = dict(v, mai_proposta=True)
+        elif costo(v) < m["costo"] - 1:
+            v = dict(v, calo_da_proposta=round(m["costo"] - costo(v)))
         else:
-            if m and m["data"] > limite:
-                v = dict(v, calo_da_proposta=round(m["costo"] - costo(v)))
-            elif not m:
-                v = dict(v, mai_proposta=True)
-            nuove.append(v)
-    scelte = nuove[:top]
-    if len(scelte) < top:                     # poche novità: completo con le migliori già viste
-        scelte += rimandate[: top - len(scelte)]
-        rimandate = rimandate[top - len(scelte):]
-    scelte.sort(key=costo)
-    return scelte, rimandate
+            v = dict(v, gia_proposta=True)
+        out.append(v)
+    return out
 
 
 def migliori_ponti(voci: list[dict], n: int) -> list[dict]:

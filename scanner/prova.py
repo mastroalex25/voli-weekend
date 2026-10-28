@@ -5,8 +5,8 @@ import random
 
 from .modello import Offerta
 
-CITTA = [("BUD", "Budapest", "Ungheria", "Ryanair"), ("TIA", "Tirana", "Albania", "Wizz Air"),
-         ("CRL", "Bruxelles", "Belgio", "Ryanair"), ("ATH", "Atene", "Grecia", "Aegean"),
+CITTA = [("BUD", "Budapest", "Ungheria", "Ryanair"), ("SOF", "Sofia", "Bulgaria", "Wizz Air"),
+         ("PRG", "Praga", "Rep. Ceca", "Ryanair"), ("ATH", "Atene", "Grecia", "Aegean"),
          ("KRK", "Cracovia", "Polonia", "Ryanair"), ("VIE", "Vienna", "Austria", "Austrian"),
          ("LIS", "Lisbona", "Portogallo", "TAP"), ("MLA", "La Valletta", "Malta", "Ryanair")]
 

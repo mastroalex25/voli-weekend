@@ -43,9 +43,8 @@ classifica:
   top: 5
   una_volta_per_citta: true  # niente 5 risultati tutti per la stessa città
   sezione_ponti: 3           # quanti "migliori ponti" mostrare a parte (0 = no)
-  pausa_citta_giorni: 7      # una città già in top 5 lascia il posto ad altre per N giorni...
-  calo_per_riproporre: 0.10  # ...a meno che il prezzo non scenda almeno del 10%
-  righe_gia_proposte: 6      # quante città "già proposte, ancora valide" elencare in breve
+  altre_in_breve: 7          # dopo la top 5, quante altre città elencare su una riga ciascuna
+                             # (etichette: ✨ mai proposta, 🔻 prezzo sceso, "già vista")
 
 fonti:
   google_flights: true
