@@ -72,6 +72,13 @@ escludi_aeroporti:
   - CDG            # Parigi
   - ORY            # Parigi Orly
   - BVA            # Parigi Beauvais
+  - BUD            # Budapest
+  - OTP            # Bucarest
+  - BBU            # Bucarest Baneasa
+  - GDN            # Danzica
+  - BCN            # Barcellona
+  - GRO            # Girona (Ryanair la vende come "Barcellona")
+  - REU            # Reus (Ryanair la vende come "Barcellona")
 
 # Destinazioni da far cercare a Google Flights (Ryanair e Wizz trovano
 # da soli tutte le loro rotte da Bari). Codice IATA dell'AEROPORTO: "Città, Paese"
@@ -88,10 +95,8 @@ destinazioni:
   VIE: "Vienna, Austria"
   PRG: "Praga, Rep. Ceca"
   BTS: "Bratislava, Slovacchia"
-  BUD: "Budapest, Ungheria"
   LJU: "Lubiana, Slovenia"
   ZAG: "Zagabria, Croazia"
-  OTP: "Bucarest, Romania"
   SOF: "Sofia, Bulgaria"
   ATH: "Atene, Grecia"
   MLA: "La Valletta, Malta"
@@ -111,7 +116,6 @@ destinazioni:
   IST: "Istanbul, Turchia"
   KEF: "Reykjavik, Islanda"
   # Grandi città da weekend
-  BCN: "Barcellona, Spagna"
   OPO: "Porto, Portogallo"
   MUC: "Monaco di Baviera, Germania"
   KRK: "Cracovia, Polonia"
