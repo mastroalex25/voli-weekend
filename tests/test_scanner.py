@@ -55,9 +55,9 @@ def test_ryanair_filtra_orari_e_italia():
     dati = {"fares": [fare("BUD", "Hungary", "18:00", "19:00", 49.9),
                       fare("TRN", "Italy", "18:00", "19:00", 20),     # Italia esclusa
                       fare("KRK", "Poland", "07:00", "19:00", 30),    # parte troppo presto
-                      fare("CRL", "Belgium", "18:00", "09:00", 25)]}  # rientro a qualsiasi ora: ok
+                      fare("OPO", "Portugal", "18:00", "09:00", 25)]}  # rientro a qualsiasi ora: ok
     out = ryanair.interpreta(dati, f, cfg, "2026-10-23")
-    assert [o.destinazione for o in out] == ["BUD", "CRL"]
+    assert [o.destinazione for o in out] == ["BUD", "OPO"]
     assert out[0].prezzo_totale == round(49.9 * 4, 2)
     assert "teens=1" in out[0].link
 
@@ -116,3 +116,16 @@ def test_orari_adattati_per_napoli():
     nap = [x for x, _ in configurazioni_partenza(carica_config()) if x["partenza"] == "NAP"][0]
     assert nap["orari"]["andata_dopo"] == "17:20"
     assert nap["orari"]["rientro_a_bari_entro_giorno_dopo"] == "03:40"
+
+
+def test_citta_gia_viste_escluse():
+    cfg = carica_config()
+    assert "TIA" in cfg["escludi_aeroporti"] and "TIA" not in cfg["destinazioni"]
+    assert "LGW" in cfg["destinazioni"]          # Londra resta
+    f = Finestra(date(2026, 11, 6), date(2026, 11, 8), True, "weekend")
+    fare = lambda iata, cc: {"outbound": {"arrivalAirport": {"iataCode": iata, "countryCode": cc, "countryName": "", "name": iata},
+                                          "departureDate": "2026-11-06T18:00:00", "arrivalDate": "2026-11-06T20:00:00"},
+                             "inbound": {"departureDate": "2026-11-08T19:00:00", "arrivalDate": "2026-11-08T21:00:00"},
+                             "summary": {"price": {"value": 40}}}
+    out = ryanair.interpreta({"fares": [fare("CRL", "be"), fare("EIN", "nl"), fare("PRG", "cz")]}, f, cfg, "x")
+    assert [o.destinazione for o in out] == ["PRG"]

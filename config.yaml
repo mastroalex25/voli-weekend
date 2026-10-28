@@ -50,7 +50,28 @@ fonti:
   wizzair: true
 
 # Paesi da escludere per i risultati Ryanair/Wizz (codici o nomi)
-escludi_paesi: ["Italy", "Italia", "IT"]
+escludi_paesi: ["Italy", "Italia", "IT",
+                "BE", "Belgium", "Belgio",          # Belgio: già visitato (itinerante)
+                "NL", "Netherlands", "Paesi Bassi",  # Olanda: già visitata (itinerante)
+                "MA", "Morocco", "Marocco"]          # Marocco: già visitato (itinerante)
+
+# Città già viste: i loro aeroporti non compaiono mai in classifica.
+# Londra resta perché la rifaresti. Aggiungi o togli codici a piacere.
+escludi_aeroporti:
+  - TIA            # Tirana (non interessa)
+  - WAW            # Varsavia
+  - WMI            # Varsavia Modlin
+  - MAD            # Madrid / Toledo
+  - VLC            # Valencia
+  - SVQ            # Siviglia (Andalusia)
+  - AGP            # Malaga (Andalusia)
+  - GRX            # Granada (Andalusia)
+  - XRY            # Jerez (Andalusia)
+  - LEI            # Almeria (Andalusia)
+  - ODB            # Cordova (Andalusia)
+  - CDG            # Parigi
+  - ORY            # Parigi Orly
+  - BVA            # Parigi Beauvais
 
 # Destinazioni da far cercare a Google Flights (Ryanair e Wizz trovano
 # da soli tutte le loro rotte da Bari). Codice IATA dell'AEROPORTO: "Città, Paese"
@@ -58,10 +79,6 @@ escludi_paesi: ["Italy", "Italia", "IT"]
 destinazioni:
   # Capitali UE
   LIS: "Lisbona, Portogallo"
-  MAD: "Madrid, Spagna"
-  CDG: "Parigi, Francia"
-  BRU: "Bruxelles, Belgio"
-  AMS: "Amsterdam, Paesi Bassi"
   LUX: "Lussemburgo, Lussemburgo"
   BER: "Berlino, Germania"
   CPH: "Copenaghen, Danimarca"
@@ -72,7 +89,6 @@ destinazioni:
   PRG: "Praga, Rep. Ceca"
   BTS: "Bratislava, Slovacchia"
   BUD: "Budapest, Ungheria"
-  WAW: "Varsavia, Polonia"
   LJU: "Lubiana, Slovenia"
   ZAG: "Zagabria, Croazia"
   OTP: "Bucarest, Romania"
@@ -88,7 +104,6 @@ destinazioni:
   EDI: "Edimburgo, Regno Unito"
   OSL: "Oslo, Norvegia"
   ZRH: "Zurigo, Svizzera"
-  TIA: "Tirana, Albania"
   TGD: "Podgorica, Montenegro"
   BEG: "Belgrado, Serbia"
   SJJ: "Sarajevo, Bosnia"
@@ -97,11 +112,8 @@ destinazioni:
   KEF: "Reykjavik, Islanda"
   # Grandi città da weekend
   BCN: "Barcellona, Spagna"
-  SVQ: "Siviglia, Spagna"
-  VLC: "Valencia, Spagna"
   OPO: "Porto, Portogallo"
   MUC: "Monaco di Baviera, Germania"
   KRK: "Cracovia, Polonia"
   NCE: "Nizza, Francia"
   MRS: "Marsiglia, Francia"
-  RAK: "Marrakech, Marocco"

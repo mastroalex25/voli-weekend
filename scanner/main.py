@@ -90,7 +90,9 @@ def esegui(prova: bool = False, manda: bool = True, oggi: date | None = None) ->
     if not prova:
         with open(os.path.join(QUI, "data", "diagnostica.txt"), "w", encoding="utf-8") as fh:
             fh.write(f"{oggi_s}\n" + ", ".join(riassunto) + "\n\n" + "\n".join(errori_dettaglio[:60]) + "\n")
-    voci = filtra_convenienti(archivio.offerte(), float(cfg.get("risparmio_minimo", 0)))
+    escludi = {c.upper() for c in cfg.get("escludi_aeroporti") or []}
+    voci = [v for v in archivio.offerte() if v["destinazione"].upper() not in escludi]
+    voci = filtra_convenienti(voci, float(cfg.get("risparmio_minimo", 0)))
     top = classifica(voci, cfg["classifica"]["top"], cfg["classifica"]["una_volta_per_citta"])
     ponti = migliori_ponti(voci, cfg["classifica"]["sezione_ponti"])
     testo = telegram.componi(top, ponti, {"riassunto": ", ".join(riassunto), "avvisi": avvisi}, oggi, cfg)
