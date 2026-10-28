@@ -25,12 +25,14 @@ class Archivio:
         self.percorso = percorso
         self.voci: dict[str, dict] = {}
         self.controlli: dict[str, str] = {}   # "finestra|dest" -> ultima ricerca Google
+        self.mostrate: dict[str, dict] = {}   # città -> {"data", "costo"} dell'ultima volta in top
         if os.path.exists(percorso):
             with open(percorso, encoding="utf-8") as fh:
                 dati = json.load(fh)
             # le chiavi senza aeroporto di partenza sono del vecchio formato: si scartano
             self.voci = {k: v for k, v in dati.get("offerte", {}).items() if k.count("|") == 3}
             self.controlli = {k: v for k, v in dati.get("controlli_google", {}).items() if k.count("|") == 2}
+            self.mostrate = dati.get("mostrate", {})
 
     def pulisci(self, oggi: date, finestre_valide: set[str], validita_giorni: int) -> None:
         limite = (oggi - timedelta(days=validita_giorni)).isoformat()
@@ -67,8 +69,13 @@ class Archivio:
     def salva(self) -> None:
         os.makedirs(os.path.dirname(self.percorso) or ".", exist_ok=True)
         with open(self.percorso, "w", encoding="utf-8") as fh:
-            json.dump({"offerte": self.voci, "controlli_google": self.controlli},
+            json.dump({"offerte": self.voci, "controlli_google": self.controlli,
+                       "mostrate": self.mostrate},
                       fh, ensure_ascii=False, indent=1, sort_keys=True)
+
+    def segna_mostrate(self, voci: list[dict], oggi: str) -> None:
+        for v in voci:
+            self.mostrate[_norm(v["citta"])] = {"data": oggi, "costo": round(costo(v))}
 
     def offerte(self) -> list[dict]:
         return list(self.voci.values())
@@ -117,6 +124,32 @@ def classifica(voci: list[dict], top: int, una_per_citta: bool) -> list[dict]:
         if len(out) == top:
             break
     return out
+
+
+def classifica_variata(voci: list[dict], top: int, mostrate: dict, oggi: date,
+                       giorni_pausa: int, calo_minimo: float) -> tuple[list[dict], list[dict]]:
+    """Come classifica(), ma una città già proposta negli ultimi giorni lascia il posto
+    ad altre, a meno che il prezzo non sia sceso abbastanza. Restituisce
+    (top, già_proposte_ancora_valide)."""
+    tutte = classifica(voci, 10_000, True)
+    limite = (oggi - timedelta(days=giorni_pausa)).isoformat()
+    nuove, rimandate = [], []
+    for v in tutte:
+        m = mostrate.get(_norm(v["citta"]))
+        if m and m["data"] > limite and costo(v) > m["costo"] * (1 - calo_minimo):
+            rimandate.append(v)
+        else:
+            if m and m["data"] > limite:
+                v = dict(v, calo_da_proposta=round(m["costo"] - costo(v)))
+            elif not m:
+                v = dict(v, mai_proposta=True)
+            nuove.append(v)
+    scelte = nuove[:top]
+    if len(scelte) < top:                     # poche novità: completo con le migliori già viste
+        scelte += rimandate[: top - len(scelte)]
+        rimandate = rimandate[top - len(scelte):]
+    scelte.sort(key=costo)
+    return scelte, rimandate
 
 
 def migliori_ponti(voci: list[dict], n: int) -> list[dict]:

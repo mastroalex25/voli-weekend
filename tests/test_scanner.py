@@ -129,3 +129,23 @@ def test_citta_gia_viste_escluse():
                              "summary": {"price": {"value": 40}}}
     out = ryanair.interpreta({"fares": [fare("CRL", "be"), fare("EIN", "nl"), fare("PRG", "cz")]}, f, cfg, "x")
     assert [o.destinazione for o in out] == ["PRG"]
+
+
+def test_rotazione_citta():
+    from scanner.classifica import classifica_variata
+    base = {"tipo": "weekend", "persone": 4, "paese": "", "destinazione": "X", "fonte": "ryanair",
+            "finestra": "a", "partenza": "BRI"}
+    nomi = ["Poznan", "Malta", "Sofia", "Londra", "Katowice", "Cracovia", "Erevan", "Porto"]
+    voci = [dict(base, citta=c, prezzo_persona=40 + 10 * i) for i, c in enumerate(nomi)]
+    oggi = date(2026, 10, 29)
+    # ieri proposte le prime 5; Malta oggi costa molto meno (−20%)
+    mostrate = {c.lower(): {"data": "2026-10-28", "costo": (40 + 10 * i) * 4} for i, c in enumerate(nomi[:5])}
+    mostrate["malta"]["costo"] = 250
+    top, gia = classifica_variata(voci, 5, mostrate, oggi, 7, 0.10)
+    nomi_top = {v["citta"] for v in top}
+    assert "Malta" in nomi_top                                       # riproposta: calo forte
+    assert {"Cracovia", "Erevan", "Porto"} <= nomi_top               # spazio alle novità
+    assert {"Sofia", "Londra", "Katowice"} <= {v["citta"] for v in gia}
+    # dopo 7 giorni le città tornano normali
+    top2, _ = classifica_variata(voci, 5, mostrate, date(2026, 11, 6), 7, 0.10)
+    assert [v["citta"] for v in top2] == nomi[:5]

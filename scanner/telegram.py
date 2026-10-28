@@ -19,7 +19,7 @@ def _euro(x: float) -> str:
 def _tendenza(v: dict) -> str:
     prec = v.get("prezzo_prec")
     if not prec:
-        return "🆕 nuovo"
+        return "primo rilevamento"
     diff = (v["prezzo_persona"] - prec) * v["persone"]
     if abs(diff) < 1:
         return "= stabile"
@@ -41,6 +41,10 @@ def _riga(v: dict, simbolo: str) -> str:
         f"🛫 {e(v.get('andata',''))}   🛬 {e(v.get('ritorno',''))}",
         f"{e(', '.join(v.get('compagnie', [])))} · {scali} · {_tendenza(v)}{record}",
     ]
+    if v.get("mai_proposta"):
+        righe[0] += " ✨ <i>mai proposta</i>"
+    elif v.get("calo_da_proposta"):
+        righe[0] += f" · 🔻 {_euro(v['calo_da_proposta'])} dall'ultima volta"
     if v.get("partenza", "BRI") != "BRI":
         nomi = {"BDS": "Brindisi", "NAP": "Napoli"}
         risp = v.get("risparmio")
@@ -53,7 +57,8 @@ def _riga(v: dict, simbolo: str) -> str:
     return "\n".join(righe)
 
 
-def componi(top: list[dict], ponti: list[dict], stato: dict, oggi: date, cfg: dict) -> str:
+def componi(top: list[dict], ponti: list[dict], stato: dict, oggi: date, cfg: dict,
+            gia_viste: list[dict] | None = None) -> str:
     bag = "trolley in cabina" if cfg["bagaglio"]["trolley_cabina"] else "solo borsa piccola"
     persone = int(cfg["passeggeri"]["adulti"]) + int(cfg["passeggeri"]["ragazzi_12_15"])
     parti = [
@@ -65,6 +70,14 @@ def componi(top: list[dict], ponti: list[dict], stato: dict, oggi: date, cfg: di
         parti.append("Nessun volo trovato oggi con i filtri impostati.")
     for i, v in enumerate(top):
         parti += [_riga(v, MEDAGLIE[i]), ""]
+    if gia_viste:
+        voci = []
+        for v in gia_viste:
+            f = finestra_da_chiave(v["finestra"], v["tipo"])
+            voci.append(f'<a href="{html.escape(v["link"], quote=True)}">{html.escape(v["citta"])}</a> '
+                        f"{_euro(v['prezzo_persona'] * v['persone'] + v.get('costo_extra', 0))} "
+                        f"({f.andata.day}/{f.andata.month})")
+        parti += ["🔁 <b>Già proposte, ancora valide:</b> " + " · ".join(voci), ""]
     if ponti:
         parti += ["🌉 <b>Migliori ponti e vacanze</b>"]
         for v in ponti:

@@ -17,7 +17,7 @@ import yaml
 
 from . import telegram
 from .calendario import Calendario
-from .classifica import Archivio, classifica, filtra_convenienti, migliori_ponti
+from .classifica import Archivio, classifica_variata, filtra_convenienti, migliori_ponti
 
 QUI = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 log = logging.getLogger("scanner")
@@ -93,9 +93,16 @@ def esegui(prova: bool = False, manda: bool = True, oggi: date | None = None) ->
     escludi = {c.upper() for c in cfg.get("escludi_aeroporti") or []}
     voci = [v for v in archivio.offerte() if v["destinazione"].upper() not in escludi]
     voci = filtra_convenienti(voci, float(cfg.get("risparmio_minimo", 0)))
-    top = classifica(voci, cfg["classifica"]["top"], cfg["classifica"]["una_volta_per_citta"])
+    cl = cfg["classifica"]
+    top, gia_viste = classifica_variata(voci, cl["top"], archivio.mostrate, oggi,
+                                        int(cl.get("pausa_citta_giorni", 7)),
+                                        float(cl.get("calo_per_riproporre", 0.10)))
+    if not prova:
+        archivio.segna_mostrate(top, oggi_s)
+        archivio.salva()
     ponti = migliori_ponti(voci, cfg["classifica"]["sezione_ponti"])
-    testo = telegram.componi(top, ponti, {"riassunto": ", ".join(riassunto), "avvisi": avvisi}, oggi, cfg)
+    testo = telegram.componi(top, ponti, {"riassunto": ", ".join(riassunto), "avvisi": avvisi}, oggi, cfg,
+                             gia_viste=gia_viste[: int(cl.get("righe_gia_proposte", 6))])
 
     if manda:
         token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")

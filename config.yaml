@@ -43,6 +43,9 @@ classifica:
   top: 5
   una_volta_per_citta: true  # niente 5 risultati tutti per la stessa città
   sezione_ponti: 3           # quanti "migliori ponti" mostrare a parte (0 = no)
+  pausa_citta_giorni: 7      # una città già in top 5 lascia il posto ad altre per N giorni...
+  calo_per_riproporre: 0.10  # ...a meno che il prezzo non scenda almeno del 10%
+  righe_gia_proposte: 6      # quante città "già proposte, ancora valide" elencare in breve
 
 fonti:
   google_flights: true
@@ -120,4 +123,22 @@ destinazioni:
   MUC: "Monaco di Baviera, Germania"
   KRK: "Cracovia, Polonia"
   NCE: "Nizza, Francia"
+  LYS: "Lione, Francia"
+  BOD: "Bordeaux, Francia"
+  TLS: "Tolosa, Francia"
+  GVA: "Ginevra, Svizzera"
+  HAM: "Amburgo, Germania"
+  CGN: "Colonia, Germania"
+  FRA: "Francoforte, Germania"
+  NUE: "Norimberga, Germania"
+  SZG: "Salisburgo, Austria"
+  WRO: "Breslavia, Polonia"
+  CLJ: "Cluj-Napoca, Romania"
+  SKG: "Salonicco, Grecia"
+  SPU: "Spalato, Croazia"
+  DBV: "Dubrovnik, Croazia"
+  GOT: "Goteborg, Svezia"
+  BGO: "Bergen, Norvegia"
+  KUT: "Kutaisi, Georgia"
+  EVN: "Erevan, Armenia"
   MRS: "Marsiglia, Francia"
