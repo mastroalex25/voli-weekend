@@ -1,5 +1,6 @@
-2026-10-27
-Ryanair 300 tariffe, Wizzair 114 tariffe, Google 650 ricerche
+2026-10-28
+Ryanair 300 tariffe, Wizzair 113 tariffe, Google 650 ricerche
 
-[NAP] Wizz KTW 2026-10-30: HTTPError
-[NAP] Wizz KTW 2026-12-11: HTTPError
+[NAP] Wizz GHV 2026-12-11: HTTPError
+[NAP] Wizz HRG 2026-10-30: HTTPError
+[NAP] Wizz HRG 2026-12-11: HTTPError
